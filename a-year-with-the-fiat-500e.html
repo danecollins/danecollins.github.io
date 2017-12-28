@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  A year with the Fiat 500e | exploring data
+</title>
+  <link rel="canonical" href="/a-year-with-the-fiat-500e.html">
+
+
+  <link rel="stylesheet" href="/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="/theme/css/theme.css">
+
+  
+  <meta name="description" content="Summary of owning a 500e">
+  <script defer src="/theme/js/fa-light.js"></script>
+  <script defer src="/theme/js/fa-brands.js"></script>
+  <script defer src="/theme/js/fontawesome.js"></script>
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="title"><a href="/">exploring data</a></h1>
+      <p class="text-muted">Using Python and Tableau</p>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="https://twitter.com/danecollins/" target="_blank">twitter</a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/danec/" target="_blank">linkedin</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  A year with the Fiat 500e
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2015-05-31T13:51:35-07:00">
+          <i class="fa fa-clock-o"></i>
+          Sun 31 May 2015
+        </li>
+        <li class="list-inline-item">
+          <i class="fa fa-folder-open-o"></i>
+          <a href="/category/posts.html">posts</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fa fa-user-o"></i>
+              <a href="/author/dane-collins.html">Dane Collins</a>          </li>
+          <li class="list-inline-item">
+            <i class="fa fa-files-o"></i>
+              <a href="/tag/evs.html">#EVs</a>,               <a href="/tag/fiat.html">#Fiat</a>          </li>
+      </ul>
+    </header>
+    <div class="content">
+      <p>As I complete my first year with the 500e I wanted to share some of the data I have been collecting in case others might find it interesting.</p>
+<p>Summary of what I learned looking at the data</p>
+<p>The %charge indicator is very accurate. 
+On average the MPGe indicated on the dash is 17% too high.
+On 1 hour of charging you can drive:
+3.8 miles if charging at 120V
+12.5 miles if charging from a 240V TurboCord
+20 miles if charging from a Level 2 Charger
+ </p>
+<p>Details</p>
+<p>Each time I charged the car I collected the percentage of charge remaining, the miles driven and the MPGe estimate. When I charged at public stations that provide statistics on the number of kWh charged I tracked that also.</p>
+<p>In trying to look at the accuracy of the charge indicator I needed a known reference to measure against. The only way I found was to use the measurements of ChargePoint charging stations. Whenever I charge the car at a ChargePoint station it will give me an exact reading of the kWh used.  I then compare that to the change in the battery charge indicator.  The computed kWh is found by:</p>
+<div class="highlight"><pre><span></span>(ending percentage - starting percentage) * 24 kWh (the battery capacity)
+</pre></div>
+
+
+<p>Using this I plot the computed kWh against the measured kWh.  Doing this produces:</p>
+<p><img alt="Computed vs Measured kWh" src="images/comp_vs_meas_kwh.png" /></p>
+<p>As you can see the values match very well.</p>
+<p>Once I established the accuracy of computing the kWh consumption based on the change in the percentage of the battery charge indicator I could use this to understand the accuracy of the other dash readouts.</p>
+<p>Comparing the MPGe (or miles/kWh) estimated on the dash to the values computed I found that it was the results varies quite a bit. As we can see here the computed MPGe for a given dashboard MPGe can vary quite a bit.</p>
+<p><img alt="Computed vs Indicated MPGe" src="images/comp_vs_meas_mpge.png" />
+ </p>
+<p>If we look at the error in each data point and plot that on a histogram we get:</p>
+<p><img alt="MPGe Overestimation" src="images/mpge_overestim.png" /></p>
+<p>From which I computed the average overestimation of 17%. Even though the dashboard indicator over-estimates the MPGe my actual MPGe after a year of driving was 115 which is higher than the value quoted by Fiat.</p>
+<p>When looking at EVSE's (chargers) they quote the amount of time it takes to fully charge a car.  I don't find this that useful. I often worry that my current charge is not adequate for where I'm trying to go and I want to know how how long it will take to charge to get X extra miles. I found that expressing charge rates in miles of driving per hour of charging to be useful for this. The results above are averages based on 66 individual partial charges. I did tend to notice that the car will charge slower as it approaches 100% so you can actually get above these rates if you are only partially charging the car.</p>
+    </div>
+  </article>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
+</body>
+
+</html>
