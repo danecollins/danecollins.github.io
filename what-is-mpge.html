@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  What is MPGe? | exploring data
+</title>
+  <link rel="canonical" href="/what-is-mpge.html">
+
+
+  <link rel="stylesheet" href="/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="/theme/css/theme.css">
+
+  
+  <meta name="description" content="Defining MPGe">
+  <script defer src="/theme/js/fa-light.js"></script>
+  <script defer src="/theme/js/fa-brands.js"></script>
+  <script defer src="/theme/js/fontawesome.js"></script>
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="title"><a href="/">exploring data</a></h1>
+      <p class="text-muted">Using Python and Tableau</p>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="https://twitter.com/danecollins/" target="_blank">twitter</a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/danec/" target="_blank">linkedin</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  What is MPGe?
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2014-08-12T16:29:13-07:00">
+          <i class="fa fa-clock-o"></i>
+          Tue 12 August 2014
+        </li>
+        <li class="list-inline-item">
+          <i class="fa fa-folder-open-o"></i>
+          <a href="/category/posts.html">posts</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fa fa-user-o"></i>
+              <a href="/author/dane-collins.html">Dane Collins</a>          </li>
+          <li class="list-inline-item">
+            <i class="fa fa-files-o"></i>
+              <a href="/tag/evs.html">#EVs</a>          </li>
+      </ul>
+    </header>
+    <div class="content">
+      <p>Everyone is used to seeing car mileage MPG (miles-per-gallon) ratings. Since electric cars don't use gasoline the traditional MPG rating is not applicable, so the electric car industry created MPGe. What is MPGe mean and what is it good for?</p>
+<p>As I look at this I see three uses for MPGe:</p>
+<ol>
+<li>As marketing metric to make electric cars seem very efficient</li>
+<li>As a mechanism to compare efficiency between electric vehicles</li>
+<li>As a way to compare cost of operating electric versus gas cars</li>
+</ol>
+<p>Unfortunately, what I've learned is that while the industry computed MPGe can be used for #1 and #2 it is quite misleading if used for #3!</p>
+<h3>How is MPGe defined?</h3>
+<p>In coming up with MPGe, the industry decided to see how far a car could go using the total potential amount of energy in a gallon of gas. In doing so, they have created a metric that misleads buyers and in the end, will do a great disservice to the electric car buying public.</p>
+<p>The thinking goes like this; one gallon of gas has the potential of generating 36.6 kWh. A Fiat 500e, as an example, can go 3.45 miles on 1 kWh. Multiplying these together you get an MPGe of 126.3.</p>
+<p><strong>Addendum 9/18/14:</strong> while there are some references for a gallon of gas having 36.6 kWh (131,760kJ) of energy the number that the EPA uses is 33.7 kWh, and this is the number used in the Fiat when it displays MPGe on its dashboard.</p>
+<p>I find this pretty flawed thinking as there is no way to convert gasoline to energy in your car battery at anywhere close that amount. Also, this ignores the market forces that price the gas and electricity that you buy. Because of this, I find that while this metric may be the marketing aspects of #1 and #2 above, it does not tell you anything about your cost of operation.</p>
+<h3>How to compare electric and gas powered cars?</h3>
+<p>In trying to figure out a comparison metric, it seems to make more sense to figure out how much it costs to drive a fixed distance in both cars.</p>
+<p>For gas cars, the cost per mile is: </p>
+<div class="highlight"><pre><span></span>Gas Cost ($/gallon) / Car mileage (MPG)
+</pre></div>
+
+
+<p>For the electric car the cost per mile is:</p>
+<div class="highlight"><pre><span></span>Electricity Cost ($/kWh) / Car mileage (mi/kWh)
+</pre></div>
+
+
+<p>Let's use some typical values for this:</p>
+<ul>
+<li>Gas Cost: $3.80 / gallon (regular gas)</li>
+<li>Car mileage: 30 MPG</li>
+<li>Electricity Cost: $0.32 / kWh</li>
+<li>Car mileage: 3.45 miles/kWh</li>
+</ul>
+<p><strong>Note:</strong> <em>Your numbers could be wildly different but these are accurate for my 2 cars. Also, electricity cost varies wildly in the US. The $0.32 is accurate for me in CA but in CO the number would be $0.09 which significantly changes the math below.</em></p>
+<p>Now we can compare the 2 cars:</p>
+<ul>
+<li>Gas car cost per mile: $0.127</li>
+<li>Electric car cost per mile: $0.093</li>
+</ul>
+<p>This means that the electric car is 36% cheaper to drive than the gas car. But what if we had used the MPGe metric to determine the same thing. If we did that we would find that the electric car is
+422% cheaper to operate, a quite an exaggeration of the cost savings of an electric vehicle.</p>
+<p>Taking this example a little further, if you were driving a car that gets great gas mileage, let's say 50 MPG, you find that the cost per mile for that car is $0.076 which is 22% CHEAPER than the electric car.</p>
+<p>Likewise, if you have solar panels and produce you're own electricity and have excess capacity then your electricity cost is near $0 and an electric car is cheaper regardless of the price of gasoline.</p>
+<h3>Other impacts</h3>
+<p>Just because driving an electric car may cost you more per mile to operate than driving a Prius, it does not mean that there are not other factors to consider.  Decreased environmental impact or lower maintenance costs are important factors. </p>
+<p>In all cases, it's important to understand your situation and not be swayed by marketing materials and then disappointed later.</p>
+    </div>
+  </article>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
+</body>
+
+</html>
