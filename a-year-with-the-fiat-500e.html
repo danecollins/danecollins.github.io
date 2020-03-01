@@ -31,7 +31,7 @@
 <div class="row">
   <div class="col-sm-12">
     <h1 class="title"><a href="/">exploring data</a></h1>
-      <p class="text-muted">Using Python and Tableau</p>
+      <p class="text-muted">Thinking about and analyzing data</p>
       <ul class="list-inline">
           <li class="list-inline-item"><a href="https://twitter.com/danecollins/" target="_blank">twitter</a></li>
           <li class="list-inline-item"><a href="https://www.linkedin.com/in/danec/" target="_blank">linkedin</a></li>
@@ -77,19 +77,19 @@ On 1 hour of charging you can drive:
 <p>Details</p>
 <p>Each time I charged the car I collected the percentage of charge remaining, the miles driven and the MPGe estimate. When I charged at public stations that provide statistics on the number of kWh charged I tracked that also.</p>
 <p>In trying to look at the accuracy of the charge indicator I needed a known reference to measure against. The only way I found was to use the measurements of ChargePoint charging stations. Whenever I charge the car at a ChargePoint station it will give me an exact reading of the kWh used.  I then compare that to the change in the battery charge indicator.  The computed kWh is found by:</p>
-<div class="highlight"><pre><span></span>(ending percentage - starting percentage) * 24 kWh (the battery capacity)
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">(ending percentage - starting percentage) * 24 kWh (the battery capacity)</span>
+</code></pre></div>
 
 
 <p>Using this I plot the computed kWh against the measured kWh.  Doing this produces:</p>
-<p><img alt="Computed vs Measured kWh" src="images/comp_vs_meas_kwh.png" /></p>
+<p><img alt="Computed vs Measured kWh" src="images/comp_vs_meas_kwh.png"></p>
 <p>As you can see the values match very well.</p>
 <p>Once I established the accuracy of computing the kWh consumption based on the change in the percentage of the battery charge indicator I could use this to understand the accuracy of the other dash readouts.</p>
 <p>Comparing the MPGe (or miles/kWh) estimated on the dash to the values computed I found that it was the results varies quite a bit. As we can see here the computed MPGe for a given dashboard MPGe can vary quite a bit.</p>
-<p><img alt="Computed vs Indicated MPGe" src="images/comp_vs_meas_mpge.png" />
+<p><img alt="Computed vs Indicated MPGe" src="images/comp_vs_meas_mpge.png">
  </p>
 <p>If we look at the error in each data point and plot that on a histogram we get:</p>
-<p><img alt="MPGe Overestimation" src="images/mpge_overestim.png" /></p>
+<p><img alt="MPGe Overestimation" src="images/mpge_overestim.png"></p>
 <p>From which I computed the average overestimation of 17%. Even though the dashboard indicator over-estimates the MPGe my actual MPGe after a year of driving was 115 which is higher than the value quoted by Fiat.</p>
 <p>When looking at EVSE's (chargers) they quote the amount of time it takes to fully charge a car.  I don't find this that useful. I often worry that my current charge is not adequate for where I'm trying to go and I want to know how how long it will take to charge to get X extra miles. I found that expressing charge rates in miles of driving per hour of charging to be useful for this. The results above are averages based on 66 individual partial charges. I did tend to notice that the car will charge slower as it approaches 100% so you can actually get above these rates if you are only partially charging the car.</p>
     </div>
