@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  About Covid-19 Data, Part 1 | exploring data
+</title>
+  <link rel="canonical" href="/covid1.html">
+
+
+  <link rel="stylesheet" href="/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="/theme/css/theme.css">
+
+  
+  <meta name="description" content="Covid data with the context to understand it">
+  <script defer src="/theme/js/fa-light.js"></script>
+  <script defer src="/theme/js/fa-brands.js"></script>
+  <script defer src="/theme/js/fontawesome.js"></script>
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="title"><a href="/">exploring data</a></h1>
+      <p class="text-muted">Thinking about and analyzing data</p>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="https://twitter.com/danecollins/" target="_blank">twitter</a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/danec/" target="_blank">linkedin</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  About Covid-19 Data, Part 1
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2020-05-09T20:00:00-07:00">
+          <i class="fa fa-clock-o"></i>
+          Sat 09 May 2020
+        </li>
+        <li class="list-inline-item">
+          <i class="fa fa-folder-open-o"></i>
+          <a href="/category/posts.html">posts</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fa fa-user-o"></i>
+              <a href="/author/dane-collins.html">Dane Collins</a>          </li>
+          <li class="list-inline-item">
+            <i class="fa fa-files-o"></i>
+              <a href="/tag/covid.html">#covid</a>,               <a href="/tag/data.html">#data</a>          </li>
+      </ul>
+    </header>
+    <div class="content">
+      <h1>Biases</h1>
+<p>Every time you see a chart remember that a chart is an <strong>argument made visual</strong>.
+The person that created the chart had a point they wanted to make and
+they believed that data would convince you.  That point might have been from an objective point of view, or might have been created
+to promote a specific agenda. It is always worth approaching a data-based
+argument with a bit of skepticism.</p>
+<p>Given that, let me state my bias. I want things to reopen.  I hate not being able to go to
+a restaurant or a bar. I believe that shutting everything down when we knew nothing was the right,
+although painful, thing to do but, as long as we stay shutdown we learn nothing.  Only by trying things, seeing what works and what does not can we learn enough to manage our way through this.</p>
+<h1>About Data</h1>
+<p>Data does not tell us what to do. It can inform us but, our own beliefs will color what we think the
+right thing to do is.  He is an example of what I mean.</p>
+<p>We know that the shelter-in-place reduces the spread of Covid19.  It also keeps people with heart problems out of the hospital and places homeless people at increased risk. How do you balance those
+groups?  There is no mathematics that allows you to balance that.  It will always be a judgment call.</p>
+<h1>Covid is a local issue</h1>
+<p>First and foremost, this is a local issue.  Santa Clara is not Santa Cruz, it's not LA, it's not 
+Fresno.  If you want to understand Covid-19, start at the local level where you can understand it
+best.  The problem with trying to look at the big picture is that adding a bunch of data together
+actually makes it less clear, not more clear.  Here is an example of what I mean.  Let's look at
+a fictional state that has 3 counties.  Here we are plotting the daily number of cases in each county
+and then the number of cases at the state level.</p>
+<p><img alt="Cases Per Day" src="images/cases_per_day.png"></p>
+<p>When we look at the state cases on this chart, which looks a lot like the California case curve, 
+our first thoughts could be that everytime it looks like cases are going down, people stop being
+good and cases go back up.  But, when we look at the county level, we get a much better insight
+into what is going on.  What we actually have is three counties going through the exact same
+type of epidemic but each at a different time.  Each county is getting over it at the same rate
+but since they started at a different time, they will recover at different times.  When you add 
+them up though, rather than seeing a staged recovery you see a spiked increase in cases.</p>
+<h1>How is Santa Clara doing?</h1>
+<p>The best data for Santa Clara is the <a href="https://www.sccgov.org/sites/covid19/Pages/dashboard.aspx">county webpage</a></p>
+<p>There is a lot of data there. For me, the most interesting graph at the site is the "New Cases by
+Specimen Collection Date". When I look at this I see that during March, cases were increasing but
+that in the last several weeks, the cases per day are slowly dropping.</p>
+<p>Note: when looking at any Covid-19 graphs it is good to remember:</p>
+<ul>
+<li>data collection is uneven, it's often terrible on the weekend, there are catch-up days, etc.</li>
+<li>trends are good, the day-by-day number are not</li>
+<li>often, sources are going back and changing old data</li>
+<li>always make sure you know if a chart is cumulative or incremental. Cumulative charts can only go up, never down.</li>
+</ul>
+    </div>
+  </article>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
+</body>
+
+</html>
