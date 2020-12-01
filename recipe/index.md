@@ -5,8 +5,9 @@
 
 | Chicken         | Pork             |
 | :-------:       | :----:           |
-| [Marsala Sauce](marsala_sauce.html)   | [Maple Glaze](maple_glaze.html)      |
+| [Marsala Sauce](marsala_sauce.html)   | [Maple Glaze]      |
 | [Mustard Sauce](mustard_sauce.html)   | [Duxelles Sauce](duxelles_sauce.html)   |
+| [Maple Mustard Sauce](maple_mustard.html) |
 
 
 ## Casseroles
@@ -29,8 +30,8 @@
 
 
 ## Other
-* [Chicken Marsala Meatballs]
-* [Corn Fritters]
+* [Turkeycp Marsala Meatballs](marsala_meatballs.html)
+* [Corn Fritters](corn_fritters.html)
 * [Chicken Parmesan]
 * [BBQ Beans]
 * [Pork Fried Rice]
@@ -38,6 +39,6 @@
 
 
 ## Soups
-* [Corn Chowder]
+* [Corn Chowder](corn_chowder.html)
 * [Spicy Tomato Soup with Pasta]
 * [Wild Rice and Chicken](wild_rice_soup.html)
