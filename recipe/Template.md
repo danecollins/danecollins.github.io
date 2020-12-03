@@ -2,7 +2,7 @@ Risotto with Sausage
 ====================
 **Adapted from Cook's Illustrated**
 
-Ingredients  | Pantry Items
+Purchased  | Pantry Items
 -----------  | ------------
 
 
