@@ -5,7 +5,7 @@
 
 | Chicken         | Pork             |
 | :-------:       | :----:           |
-| [Marsala Sauce](marsala_sauce.html)   | [Maple Glaze]      |
+| [Marsala Sauce](marsala_sauce.html)   | [Maple Glaze] (maple_glaze.html)     |
 | [Mustard Sauce](mustard_sauce.html)   | [Duxelles Sauce](duxelles_sauce.html)   |
 | [Maple Mustard Sauce](maple_mustard.html) |
 
@@ -23,22 +23,22 @@
 
 
 ## Pasta
-* [Tagliatelle with Prosciutto and Peas]
-* [Shrimp Pasta with Browned Butter]
-* [Tagliatelle with Bolognese Sauce]
-* [Pork Lo Mein]
+* [Tagliatelle with Prosciutto and Peas](tagliatelle_peas.html)
+* [Shrimp Pasta with Browned Butter](shrimp_browned_butter.html)
+* [Tagliatelle with Bolognese Sauce](tagliatelle_bolognese.html)
+* [Pork Lo Mein](pork_lo_mein.html)
 
 
 ## Other
-* [Turkeycp Marsala Meatballs](marsala_meatballs.html)
+* [Turkey Marsala Meatballs](marsala_meatballs.html)
 * [Corn Fritters](corn_fritters.html)
-* [Chicken Parmesan]
-* [BBQ Beans]
-* [Pork Fried Rice]
-* [Chile Verde]
+* [Chicken Parmesan](chicken_parm.html)
+* [BBQ Beans](bbq_beans.html)
+* [Pork Fried Rice](pork_fried_rice.html)
+* [Chile Verde](chile_verde.html)
 
 
 ## Soups
 * [Corn Chowder](corn_chowder.html)
-* [Spicy Tomato Soup with Pasta]
+* [Spicy Tomato Soup with Pasta](spicy_tomato_soup.html)
 * [Wild Rice and Chicken](wild_rice_soup.html)
