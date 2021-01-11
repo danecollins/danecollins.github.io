@@ -36,6 +36,7 @@
 * [BBQ Beans](bbq_beans.html)
 * [Pork Fried Rice](pork_fried_rice.html)
 * [Chile Verde](chile_verde.html)
+* [Shepherd's Pie](shepherds_pie.html)
 
 
 ## Soups
