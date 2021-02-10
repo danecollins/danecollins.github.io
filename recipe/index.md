@@ -23,6 +23,7 @@
 * [Risotto with Sausage](risotto_with_sausage.html)
 * [Saffron Chicken and Rice](saffron_chicken.html)
 * [Sweet Soy Braised Pork](sweet_soy_port.html)
+* [Chicken and Sausage Gumbo](chicken_sausage_gumbo.html)
 
 
 ## Pasta
