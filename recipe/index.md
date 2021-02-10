@@ -8,7 +8,7 @@
 | [Marsala Sauce](marsala_sauce.html)   | [Maple Glaze] (maple_glaze.html)     |
 | [Mustard Sauce](mustard_sauce.html)   | [Duxelles Sauce](duxelles_sauce.html)   |
 | [Maple Mustard Sauce](maple_mustard.html) | [Balsamic Sauce](balsamic_sauce.html) |
-                                            | [Apple Cider Sauce] (apple_cider.html) |
+| [Mustard Cream Sauce](mustard_cream_sauce.html) | [Apple Cider Sauce] (apple_cider.html) |
                                             | [Mustard Sauce](mustard_sauce.html) |
 
 
