@@ -6,11 +6,11 @@
 
 | Purchased                                       | Pantry             |
 | ----------------------------------------------- | ------------------ |
-| 2 lb pork shoulder                              | 4 cloves of garlic |
-| 1.2 lb tomatillos (de-stemmed)                  | Chili powder       |
-| 3 poblano peppers (seeds removed)                 | Ground cumin       |
-| 2 jalapeno peppers (seeds removed) |                    |
-| 1 medium onion                                  |                    |
+| 2 lb boneless pork butt                         | 4 cloves of garlic |
+| 1 lb tomatillos (de-stemmed)                  | 1 tsp Chili powder   |
+| 3 poblano peppers (seeds removed)               | 1 tsp Ground cumin |
+| 2 jalapeno peppers (seeds removed) | 1 tsp Oregano   | 
+| 1 medium onion                                  | pinch cinnamon     |
 
 ## Timeline (120 min total)
 
