@@ -42,6 +42,7 @@
 * [Pork Fried Rice](pork_fried_rice.html)
 * [Shepherd's Pie](shepherds_pie.html)
 * [Turkey Marsala Meatballs](marsala_meatballs.html)
+* [Ginger Hoisin Shrimp](ginger_hoisin_shrimp.html)
 
 
 ## Soups
