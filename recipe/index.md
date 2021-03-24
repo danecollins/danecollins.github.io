@@ -43,6 +43,7 @@
 * [Shepherd's Pie](shepherds_pie.html)
 * [Turkey Marsala Meatballs](marsala_meatballs.html)
 * [Ginger Hoisin Shrimp](ginger_hoisin_shrimp.html)
+* [Ground Beef Tacos](ground_beef_tacos.html)
 
 
 ## Soups
