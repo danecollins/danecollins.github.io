@@ -39,6 +39,7 @@
 * [Chile Verde](chile_verde.html)
 * [Chicken Parmesan](chicken_parm.html)
 * [Corn Fritters](corn_fritters.html)
+* [French Toast](french_toast.html)
 * [Pork Fried Rice](pork_fried_rice.html)
 * [Shepherd's Pie](shepherds_pie.html)
 * [Turkey Marsala Meatballs](marsala_meatballs.html)
