@@ -40,9 +40,12 @@
 * [BBQ Beans](bbq_beans.html)
 * [Chicken Parmesan](chicken_parm.html)
 * [Corn Fritters](corn_fritters.html)
+* [French Toast](french_toast.html)
 * [Pork Fried Rice](pork_fried_rice.html)
 * [Shepherd's Pie](shepherds_pie.html)
 * [Turkey Marsala Meatballs](marsala_meatballs.html)
+* [Ginger Hoisin Shrimp](ginger_hoisin_shrimp.html)
+* [Ground Beef Tacos](ground_beef_tacos.html)
 
 
 ## Soups
