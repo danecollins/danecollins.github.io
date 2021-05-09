@@ -19,7 +19,6 @@
 * [Beef Stew](beef_stew.html)
 * [Classic Pot Roast](pot_roast.html)
 * [Chicken Pot Pie](chicken_pot_pie.html)
-* [Chili](chili.html)
 * [Risotto with Sausage](risotto_with_sausage.html)
 * [Saffron Chicken and Rice](saffron_chicken.html)
 * [Sweet Soy Braised Pork](sweet_soy_port.html)
@@ -33,10 +32,12 @@
 * [Tagliatelle with Prosciutto and Peas](tagliatelle_peas.html)
 
 
+## Croc Pot
+* [Chili](chili.html)
+* [Chile Verde](chile_verde.html)
 
 ## Other
 * [BBQ Beans](bbq_beans.html)
-* [Chile Verde](chile_verde.html)
 * [Chicken Parmesan](chicken_parm.html)
 * [Corn Fritters](corn_fritters.html)
 * [Pork Fried Rice](pork_fried_rice.html)
