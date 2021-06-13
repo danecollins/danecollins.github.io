@@ -30,22 +30,29 @@
 * [Shrimp Pasta with Browned Butter](shrimp_browned_butter.html)
 * [Tagliatelle with Bolognese Sauce](tagliatelle_bolognese.html)
 * [Tagliatelle with Prosciutto and Peas](tagliatelle_peas.html)
+* [Sesame Noodles with Pork](sesame_pork_noodles.html)
 
 
 ## Croc Pot
 * [Chili](chili.html)
 * [Chile Verde](chile_verde.html)
 
+
 ## Other
-* [BBQ Beans](bbq_beans.html)
-* [Chicken Parmesan](chicken_parm.html)
-* [Corn Fritters](corn_fritters.html)
+* Sides
+  * [BBQ Beans](bbq_beans.html)
+  * [Corn Fritters](corn_fritters.html)
+  * [Pork Fried Rice](pork_fried_rice.html)
+* Chicken
+  * [Turkey Marsala Meatballs](marsala_meatballs.html)
+  * [Chicken Parmesan](chicken_parm.html)
+* Ground Beef
+  * [Shepherd's Pie](shepherds_pie.html)
+  * [Ground Beef Tacos](ground_beef_tacos.html)
+* Shrimp
+  * [Ginger Hoisin Shrimp](ginger_hoisin_shrimp.html) 
+  * [Pistachio and Cumin Shrip](pistachio_shrimp.html)
 * [French Toast](french_toast.html)
-* [Pork Fried Rice](pork_fried_rice.html)
-* [Shepherd's Pie](shepherds_pie.html)
-* [Turkey Marsala Meatballs](marsala_meatballs.html)
-* [Ginger Hoisin Shrimp](ginger_hoisin_shrimp.html)
-* [Ground Beef Tacos](ground_beef_tacos.html)
 
 
 ## Soups
