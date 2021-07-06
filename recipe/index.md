@@ -52,6 +52,8 @@
 * Shrimp
   * [Ginger Hoisin Shrimp](ginger_hoisin_shrimp.html) 
   * [Pistachio and Cumin Shrip](pistachio_shrimp.html)
+* Pork
+  * [Carnitas](carnitas.html)
 * [French Toast](french_toast.html)
 
 
