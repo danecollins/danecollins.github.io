@@ -43,6 +43,7 @@
   * [BBQ Beans](bbq_beans.html)
   * [Corn Fritters](corn_fritters.html)
   * [Pork Fried Rice](pork_fried_rice.html)
+  * [Creamy Jalapeno Salsa](creamy_jalapeno.html)
 * Chicken
   * [Turkey Marsala Meatballs](marsala_meatballs.html)
   * [Chicken Parmesan](chicken_parm.html)
