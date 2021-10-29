@@ -18,19 +18,17 @@
 * [Beef Cacciatore](beef_cacciatore.html)
 * [Beef Stew](beef_stew.html)
 * [Classic Pot Roast](pot_roast.html)
-* [Chicken Pot Pie](chicken_pot_pie.html)
 * [Risotto with Sausage](risotto_with_sausage.html)
 * [Saffron Chicken and Rice](saffron_chicken.html)
-* [Sweet Soy Braised Pork](sweet_soy_port.html)
 * [Chicken and Sausage Gumbo](chicken_sausage_gumbo.html)
 
 
 ## Pasta
 * [Pork Lo Mein](pork_lo_mein.html)
 * [Shrimp Pasta with Browned Butter](shrimp_browned_butter.html)
-* [Tagliatelle with Bolognese Sauce](tagliatelle_bolognese.html)
 * [Tagliatelle with Prosciutto and Peas](tagliatelle_peas.html)
 * [Sesame Noodles with Pork](sesame_pork_noodles.html)
+* [Bolognese Sauce](bolognese_sauce.html)
 
 
 ## Croc Pot
@@ -47,6 +45,7 @@
 * Chicken
   * [Turkey Marsala Meatballs](marsala_meatballs.html)
   * [Chicken Parmesan](chicken_parm.html)
+  * [Chicken Pot Pie](chicken_pot_pie.html)
 * Ground Beef
   * [Shepherd's Pie](shepherds_pie.html)
   * [Ground Beef Tacos](ground_beef_tacos.html)
@@ -55,6 +54,8 @@
   * [Pistachio and Cumin Shrip](pistachio_shrimp.html)
 * Pork
   * [Carnitas](carnitas.html)
+  * [Sweet Soy Braised Pork](sweet_soy_port.html)
+  * [Pork Lo Mein](pork_lo_mein.html)
 * [French Toast](french_toast.html)
 
 

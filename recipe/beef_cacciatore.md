@@ -10,8 +10,9 @@ Ingredients  | Pantry Items
                         | 2 oz Flour
 
 
-Timeline (120 min total)
+Timeline (2hr 30 min total)
 -----------
+* 30 min to prep ingredients
 * 20 min to brown meat
 * 10 min to deglaze pan
 * 90 min to bake

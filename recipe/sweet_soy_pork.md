@@ -4,8 +4,8 @@
 
 ## Ingredients
 
-| Purchased                                               | Pantry                  |
-| ------------------------------------------------------- | ----------------------- |
+| Purchased                        | Pantry                  |
+| -------------------------------- | ----------------------- |
 | 2lb country-style pork spareribs (fat removed) | 3 tbs soy sauce         |
 | 1 cup shallots (3 large)                       | 3 tbs molases           |
 | 2 serrano chilies, sliced into rings| 4 garlic cloves |
@@ -38,5 +38,5 @@
 
 ## Notes
 
-- partially de-seed the chilies
 - tried with pork tenderloin but was tough
+- serve with rice
