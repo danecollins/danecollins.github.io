@@ -49,13 +49,15 @@
   * [Ground Beef Tacos](ground_beef_tacos.html)
 * Shrimp
   * [Ginger Hoisin Shrimp](ginger_hoisin_shrimp.html) 
-  * [Pistachio and Cumin Shrip](pistachio_shrimp.html)
+  * <del>Pistachio and Cumin Shrip</del>
 * Pork
   * [Carnitas](carnitas.html)
   * [Sweet Soy Braised Pork](sweet_soy_port.html)
   * [Pork Lo Mein](pork_lo_mein.html)
   * [Chile Verde](chile_verde.html)
-* [French Toast](french_toast.html)
+* Breakfast
+  * [French Toast](french_toast.html)
+  * [Pancakes](pancakes.html)
 
 
 ## Soups
