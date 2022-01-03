@@ -20,6 +20,7 @@
 * [Chicken and Sausage Gumbo](chicken_sausage_gumbo.html)
 * [Chili](chili.html)
 * [Classic Pot Roast](pot_roast.html)
+* [Green Bean Caserole](green_bean_caserole.html)
 * [Risotto with Sausage](risotto_with_sausage.html)
 * [Saffron Chicken and Rice](saffron_chicken.html)
 
