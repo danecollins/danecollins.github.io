@@ -43,6 +43,7 @@
   * [BBQ Beans](bbq_beans.html)
   * [Corn Fritters](corn_fritters.html)
   * [Pork Fried Rice](pork_fried_rice.html)
+  * [Scalloped Potatoes](scalloped_potatoes.html)
 * Chicken
   * [Turkey Marsala Meatballs](marsala_meatballs.html)
   * [Chicken Parmesan](chicken_parm.html)
@@ -62,3 +63,4 @@
 * [Spicy Tomato Soup with Pasta](spicy_tomato_soup.html)
 * [Wild Rice and Chicken](wild_rice_soup.html)
 * [Ham Soup](ham_soup.html)
+* [Cream of Tomato Soup](tomato_soup.html)
