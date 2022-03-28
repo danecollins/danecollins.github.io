@@ -4,17 +4,17 @@
 
 ## Ingredients
 
-| Purchased                                               | Pantry                  |
-| ------------------------------------------------------- | ----------------------- |
+| Purchased                        | Pantry                  |
+| -------------------------------- | ----------------------- |
 | 2lb country-style pork spareribs (fat removed) | 3 tbs soy sauce         |
 | 1 cup shallots (3 large)                       | 3 tbs molases           |
-| 2 serrano chilies, seeded and sliced into rings| 4 garlic cloves |
-| 1 tbs lime juice                               | 1 tbs fresh ginger |
-|                                                | 1 cup water |
+| 2 serrano chilies, sliced into rings| 4 garlic cloves |
+| 1 tbs lime juice                               | 1 cup water |
+| 1 tbs fresh ginger                             | |
 
-## Timeline (65 min)
+## Timeline (85 min)
 
-- 15 min to prep ingredients
+- 35 min to prep ingredients
 - 10 min to brown vegetables
 - 35 min to braise pork
 - 5 min to finish
@@ -38,5 +38,5 @@
 
 ## Notes
 
-- partially de-seed the chilies
 - tried with pork tenderloin but was tough
+- serve with rice

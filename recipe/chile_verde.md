@@ -9,8 +9,9 @@
 | 2.5 lb boneless pork butt                       | 4 cloves of garlic |
 | 1 lb tomatillos (de-stemmed)                    | 1 tsp Chili powder   |
 | 3 poblano peppers (seeds removed)               | 1 tsp Ground cumin |
-| 2 jalapeno peppers (seeds removed) | 1 tsp Oregano   | 
-| 1 medium onion                                  | 1tbs flour     |
+| 2-3 jalapeno peppers (seeds removed) | 1 tsp Oregano   | 
+| 1 large onion                                  | 1tbs flour     |
+| 1 bunch cilantro leaves chopped | |
 
 ## Timeline
 
