@@ -3,32 +3,33 @@
 
 Purchased  | Pantry Items
 -----------  | ------------
-| 2 lbs Cross Rib Roast  | 1/2 can tomato paste |
-| 1 onion                | 1 cup red wine       |
-| 4 carrots              | 1 can broth         |
-| 4 red potatoes         | 2 tbs flour          |
-| 1/2 can diced tomatoes |                      |
-
+| 2-3 lbs Cross Rib Roast  | 1/2 can tomato paste |
+| 1 onion                  | 2 cup red wine       |
+| 4 carrots                | 0 cans broth         |
+| 4 red potatoes           | 3 tbs flour w/ water |
+| 1 tomato chopped         | 1 tbs herb de provence |
 
 
 
 ## Timeline
 
-- 30-45 min prep (start onions and prepare meat while they sauté)
-- 3 hours to cook
+- 1 hour prep
+- 7 hours to cook
 
 
 ## Steps
 
-1. Saute onions in butter, when done sprinkle flour and cook 2-3 more minutes
+1. Saute onions in butter
 2. Place onions into casserole dish
 3. Stirfry meat in oil, salt, pepper and garlic powder, discard fat
 4. Add meat to caserole dish
-5. Deglase pan with wine and broth
-6. Add tomatoes and tomato paste and bring to boil, add to casserole
-7. Cook for 1.5 hours in a 300º oven
+5. Deglase pan with wine
+6. Mix flour with water and add to wine
+6. Add tomato and tomato paste and bring to boil, add to casserole
+7. Add salt, pepper and herb de provence
+7. Cook for 2 hours in crock pot
 8. Add potatoes and carrots
-9. Cook for 1.5 hours at 300º
+9. Cook for 5 hours
 10. Add peas at the very end if desired
 11. Thicken as needed with roux
 
