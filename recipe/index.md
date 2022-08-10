@@ -25,23 +25,16 @@
 * [Saffron Chicken and Rice](saffron_chicken.html)
 
 
-## Pasta
-* [Bolognese Sauce](bolognese_sauce.html)
-* [Pork Lo Mein](pork_lo_mein.html)
-* [Sesame Noodles with Pork](sesame_pork_noodles.html)
-* [Shrimp Pasta with Browned Butter](shrimp_browned_butter.html)
-* [Tagliatelle with Prosciutto and Peas](tagliatelle_peas.html)
+## Sides
 
-
-
-## Other
-* Sides
   * [BBQ Beans](bbq_beans.html)
   * [Corn Fritters](corn_fritters.html)
   * [Creamy Jalapeno Salsa](creamy_jalapeno.html)
   * [Pork Fried Rice](pork_fried_rice.html)
   * [Scalloped Potatoes](scalloped_potatoes.html)
   * [Sticky Potatoes](sticky_potatoes.html)
+
+## Meats
 * Chicken
   * [Turkey Marsala Meatballs](marsala_meatballs.html)
   * [Chicken Parmesan](chicken_parm.html)
@@ -49,14 +42,18 @@
 * Ground Beef
   * [Shepherd's Pie](shepherds_pie.html)
   * [Ground Beef Tacos](ground_beef_tacos.html)
+  * [Bolognese Sauce](bolognese_sauce.html)
 * Shrimp
-  * [Ginger Hoisin Shrimp](ginger_hoisin_shrimp.html) 
-  * <del>Pistachio and Cumin Shrip</del>
+  * [Ginger Hoisin Shrimp](ginger_hoisin_shrimp.html)
+  * [Shrimp Pasta with Browned Butter](shrimp_browned_butter.html)
+  * [Honey Broiled Shrimp](honey_broiled_shrimp.html)
 * Pork
   * [Carnitas](carnitas.html)
   * [Sweet Soy Braised Pork](sweet_soy_port.html)
   * [Pork Lo Mein](pork_lo_mein.html)
   * [Chile Verde](chile_verde.html)
+  * [Sesame Noodles with Pork](sesame_pork_noodles.html)
+  * [Tagliatelle with Prosciutto and Peas](tagliatelle_peas.html)
 * Breakfast
   * [French Toast](french_toast.html)
   * [Pancakes](pancakes.html)
