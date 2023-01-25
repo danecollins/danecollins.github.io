@@ -16,21 +16,20 @@
 ## Casseroles
 * [Andouille and Shrimp](andouille_shrimp.html)
 * [Chicken and Sausage Gumbo](chicken_sausage_gumbo.html)
-
+* [Chile Verde](chile_verde.html)
 
 ## Meats
 * Chicken
   * [Turkey Marsala Meatballs](marsala_meatballs.html)
-  * [Chicken Parmesan](chicken_parm.html)
-  * [Chicken Pot Pie](chicken_pot_pie.html)
+  * [Chicken **Parmesan**](chicken_parm.html)
+  * [Chicken **Pot Pie**](chicken_pot_pie.html)
   * [Saffron Chicken and Rice](saffron_chicken.html)
 * Beef
-  * [Beef Stew](beef_stew.html)
+  * [Beef **Stew**](beef_stew.html)
   * [Shepherd's Pie](shepherds_pie.html)
   * [Ground Beef Tacos](ground_beef_tacos.html)
-  * [Bolognese Sauce](bolognese_sauce.html)
-  * [Classic Pot Roast](pot_roast.html)
-  * [Beef Cacciatore](beef_cacciatore.html)
+  * [Classic **Pot Roast**](pot_roast.html)
+  * [Beef **Cacciatore**](beef_cacciatore.html)
   * [Chili](chili.html)
   * [Green Bean Caserole](green_bean_caserole.html)
 * Shrimp
@@ -40,19 +39,23 @@
 * Pork
   * [Carnitas](carnitas.html)
   * [Sweet Soy Braised Pork](sweet_soy_port.html)
-  * [Pork Lo Mein](pork_lo_mein.html)
-  * [Chile Verde](chile_verde.html)
+  * [Pork **Lo Mein**](pork_lo_mein.html)
   * [Sesame Noodles with Pork](sesame_pork_noodles.html)
-  * [Tagliatelle with Prosciutto and Peas](tagliatelle_peas.html)
-* Multiple optios
-  * [Risotto with Sausage](risotto_with_sausage.html)
+  * [**Risotto** with Sausage](risotto_with_sausage.html)
   * [Pork Fried Rice](pork_fried_rice.html)
-* Breakfast
+* Pasta
+  * [Tagliatelle with Prosciutto and Peas](tagliatelle_peas.html)
+  * [Bolognese Sauce](bolognese_sauce.html)
+  * [Tomato Sauce](tomato_sauce.html)
+
+
+## Breakfast
   * [French Toast](french_toast.html)
   * [Pancakes](pancakes.html)
   * [Breakfast Cups](breakfast_cups.html)
 
-
+  
+ 
 ## Soups
 * [Corn Chowder](corn_chowder.html)
 * [Chicken Tortilla Soup](tortilla_soup.html)
