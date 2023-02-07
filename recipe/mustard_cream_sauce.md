@@ -6,7 +6,7 @@ Purchased  | Pantry Items
 -----------  | ------------
 1 Shallot    | 3 tbs dijon mustard
 3/4 cup cream | parsley
-              | butter
+              | 1/2 cup wine or vermouth (optional)
 
 
 ## Steps
