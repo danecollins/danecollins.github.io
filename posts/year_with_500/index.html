@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <title>A year with the Fiat 500e</title>
+  <meta name="author" content="" />
+  <meta name="description"
+        content="As I complete my first year with the 500e I wanted to share some of the data I have been collecting in case others might find it interesting.
+Summary of what I learned looking at the data
+The %charge..."/>
+
+
+  <meta name="generator" content="Hugo 0.117.0">
+
+  
+  <meta itemprop="name" content="A year with the Fiat 500e"/>
+  <meta itemprop="description"
+        content="As I complete my first year with the 500e I wanted to share some of the data I have been collecting in case others might find it interesting.
+Summary of what I learned looking at the data
+The %charge..."/>
+  <meta itemprop="image"
+        content=""/>
+
+  
+  <meta property="og:title" content="A year with the Fiat 500e"/>
+  <meta property="og:type"
+        content="article"/>
+  <meta property="og:url" content="http://example.org/posts/year_with_500/"/>
+  <meta property="og:image"
+        content=""/>
+  <meta property="og:description"
+        content="As I complete my first year with the 500e I wanted to share some of the data I have been collecting in case others might find it interesting.
+Summary of what I learned looking at the data
+The %charge..."/>
+  <meta property="og:site_name" content="Dane&#39;s Blog on Travel and Data"/>
+  <meta property="article:published_time"
+        content="2015-05-31T13:51:35&#43;00:00"/>
+  <meta property="article:section" content="posts"/>
+  <meta property="article:tag" content="EVs"/>
+
+  
+  
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site"
+        content=""/>
+  <meta name="twitter:title" content="A year with the Fiat 500e"/>
+  <meta name="twitter:description"
+        content="As I complete my first year with the 500e I wanted to share some of the data I have been collecting in case others might find it interesting.
+Summary of what I learned looking at the data
+The %charge..."/>
+  <meta name="twitter:creator"
+        content=""/>
+  <meta name="twitter:image:src"
+        content=""/>
+
+  
+
+  
+  <link rel="stylesheet" type="text/css" href="/css/capsule.min.css"/>
+  
+  
+
+  
+  </head>
+
+
+  <body style="min-height:100vh;display:flex;flex-direction:column">
+
+    <nav class="navbar has-shadow is-white"
+     role="navigation" aria-label="main navigation">
+  <div class="container">
+
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <div class="title is-4">&nbsp;Dane&#39;s Blog on Travel and Data</div>
+      </a>
+
+      
+      <label role="button" class="navbar-burger has-text-dark"
+             aria-label="menu" aria-expanded="false"
+             for="navbar-burger-state">
+             
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </label>
+    </div>
+
+    
+    <input type="checkbox" id="navbar-burger-state"/>
+                          
+
+    <div class="navbar-menu">
+      <div class="navbar-end">
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+    <section class="section" style="flex:1">
+
+      
+      <div class="container">
+        <h1 class="title">A year with the Fiat 500e</h1>
+        <p class="subtitle">May 31, 2015</p>
+
+        
+
+        
+        <div class="content">
+          <p>As I complete my first year with the 500e I wanted to share some of the data I have been collecting in case others might find it interesting.</p>
+<p>Summary of what I learned looking at the data</p>
+<p>The %charge indicator is very accurate. 
+On average the MPGe indicated on the dash is 17% too high.
+On 1 hour of charging you can drive:
+3.8 miles if charging at 120V
+12.5 miles if charging from a 240V TurboCord
+20 miles if charging from a Level 2 Charger
+ </p>
+<p>Details</p>
+<p>Each time I charged the car I collected the percentage of charge remaining, the miles driven and the MPGe estimate. When I charged at public stations that provide statistics on the number of kWh charged I tracked that also.</p>
+<p>In trying to look at the accuracy of the charge indicator I needed a known reference to measure against. The only way I found was to use the measurements of ChargePoint charging stations. Whenever I charge the car at a ChargePoint station it will give me an exact reading of the kWh used.  I then compare that to the change in the battery charge indicator.  The computed kWh is found by:</p>
+<pre><code>(ending percentage - starting percentage) * 24 kWh (the battery capacity)
+</code></pre>
+<p>Using this I plot the computed kWh against the measured kWh.  Doing this produces:</p>
+<p><img src="images/comp_vs_meas_kwh.png" alt="Computed vs Measured kWh"></p>
+<p>As you can see the values match very well.</p>
+<p>Once I established the accuracy of computing the kWh consumption based on the change in the percentage of the battery charge indicator I could use this to understand the accuracy of the other dash readouts.</p>
+<p>Comparing the MPGe (or miles/kWh) estimated on the dash to the values computed I found that it was the results varies quite a bit. As we can see here the computed MPGe for a given dashboard MPGe can vary quite a bit.</p>
+<p><img src="images/comp_vs_meas_mpge.png" alt="Computed vs Indicated MPGe">
+ </p>
+<p>If we look at the error in each data point and plot that on a histogram we get:</p>
+<p><img src="images/mpge_overestim.png" alt="MPGe Overestimation"></p>
+<p>From which I computed the average overestimation of 17%. Even though the dashboard indicator over-estimates the MPGe my actual MPGe after a year of driving was 115 which is higher than the value quoted by Fiat.</p>
+<p> When looking at EVSE&rsquo;s (chargers) they quote the amount of time it takes to fully charge a car.  I don&rsquo;t find this that useful. I often worry that my current charge is not adequate for where I&rsquo;m trying to go and I want to know how how long it will take to charge to get X extra miles. I found that expressing charge rates in miles of driving per hour of charging to be useful for this. The results above are averages based on 66 individual partial charges. I did tend to notice that the car will charge slower as it approaches 100% so you can actually get above these rates if you are only partially charging the car.</p>
+<p> </p>
+<p> </p>
+
+        </div>
+
+        
+
+        
+<br>
+<div class="heading">Tags:</div>
+<div class="field is-grouped is-grouped-multiline">
+  <div class="control">
+    <a href="/tags/evs">
+      <span class="tag">Evs</span>
+    </a>
+  </div>
+</div>
+
+      </div>
+
+    </section>
+
+    <section class="section">
+      
+      <div class="container">
+  <div class="level">
+
+    <div class="level-left">
+      <div class="level-item">
+        <p class="control has-addons">
+          <a class="button" href="http://example.org/travel/laguna-dog-park/">
+            <span class="icon is-small"><i class="fas fa-chevron-left"></i></span>
+            <span class="is-hidden-touch is-hidden-desktop-only">
+              Laguna Dog Park: San Luis Opisbo
+            </span>
+            <span class="is-hidden-touch is-hidden-widescreen">
+              Laguna Dog Park: San Luis Opisbo
+            </span>
+            <span class="is-hidden-mobile is-hidden-desktop">
+              Laguna Dog Park: San Luis Opisbo
+            </span>
+            <span class="is-hidden-tablet">
+              Laguna Dog Park: San Luis Opisbo
+            </span>
+            
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="level-right">
+      <div class="level-item">
+        <p class="control has-addons">
+          <a class="button" href="http://example.org/posts/mpge/">
+            <span class="is-hidden-touch is-hidden-desktop-only">
+              What is MPGe?
+            </span>
+            <span class="is-hidden-touch is-hidden-widescreen">
+              What is MPGe?
+            </span>
+            <span class="is-hidden-mobile is-hidden-desktop">
+              What is MPGe?
+            </span>
+            <span class="is-hidden-tablet">
+              What is MPGe?
+            </span>
+            
+            <span class="icon is-small"><i class="fas fa-chevron-right"></i></span>
+          </a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+      <br>
+
+      
+      
+
+      <br>
+
+      
+      
+<div class="container">
+  <nav class="panel">
+    <p class="panel-heading">Related</p>
+    <a class="panel-block" href="http://example.org/posts/mpge/">
+      <span class="icon is-small"><i class="fas fa-chevron-right"></i></span>
+      <span>&nbsp;</span>
+      <span>What is MPGe?&nbsp;
+      <div class="tag">Evs</div>
+      </span>
+    </a>
+  </nav>
+</div>
+
+    </section>
+
+    <footer class="footer">
+  <div class="container">
+    <nav class="level">
+
+      <div class="level-item has-text-centered">
+        <a href="http://example.org/travel/" class="heading">
+          <span class="header">Travels</span>
+        </a>
+      </div><div class="level-item has-text-centered">
+        <a href="http://example.org/posts/" class="heading">
+          <span class="header">Posts</span>
+        </a>
+      </div><div class="level-item has-text-centered">
+        <a href="http://example.org/about/" class="heading">
+          <span class="header"></span>
+        </a>
+      </div><div class="level-item has-text-centered">
+        <a href="http://example.org/archive/" class="heading">
+          <span class="header"></span>
+        </a>
+      </div>
+
+    </nav>
+
+    <nav class="level">
+
+      <div class="level-left has-text-centered">
+        <div class="level-item">
+          <form class="control has-icons has-icons-right" method="get"
+                action="https://duckduckgo.com">
+            <input class="input" type="text" name="q" maxlength="255"
+                   placeholder="Search">
+            <input class="input" type="hidden" name="sites"
+                   value="http://example.org">
+            <span class="icon is-small is-right"><i class="fas fa-search"></i></span>
+          </form>
+        </div>
+      </div>
+
+      <div class="level-right has-text-centered">
+        <div class="level-item">
+
+          <a class="button" href="/">
+            <span class="icon"><i class="fas fa-home"></i></span>
+          </a> &nbsp;
+
+          
+
+          <a class="button"
+             href="">
+            <span class="icon"><i class="fas fa-rss"></i></span>
+          </a>
+
+        </div>
+      </div>
+
+    </nav>
+  </div>
+</footer>
+
+  </body>
+
+</html>

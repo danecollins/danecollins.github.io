@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>StatePark on Dane&#39;s Blog on Travel and Data</title>
+    <link>http://example.org/tags/statepark/</link>
+    <description>Recent content in StatePark on Dane&#39;s Blog on Travel and Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/statepark/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Carpinteria State Park: A Beachside Haven</title>
+      <link>http://example.org/travel/carpinteria/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/travel/carpinteria/</guid>
+      <description>Located just south of Santa Barbara, Carpinteria State Park Campground is a perfect destination for anyone looking for a beachside retreat that also offers access to nearby amenities. With campsites situated right on the beach, some with hookups, visitors can enjoy stunning views of the Pacific Ocean and a range of outdoor activities.
+One of the standout features of this campground is its proximity to Carpinteria’s charming downtown area, where visitors can find a variety of restaurants and shops within easy walking distance.</description>
+    </item>
+    
+  </channel>
+</rss>
