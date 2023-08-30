@@ -38,7 +38,7 @@ Summary of what I learned looking at the data
 The %charge..."/>
   <meta property="og:site_name" content="Dane&#39;s Blog on Travel and Data"/>
   <meta property="article:published_time"
-        content="2015-05-31T13:51:35&#43;00:00"/>
+        content="2015-05-31T00:00:00&#43;00:00"/>
   <meta property="article:section" content="posts"/>
   <meta property="article:tag" content="EVs"/>
 
@@ -129,14 +129,14 @@ On 1 hour of charging you can drive:
 <pre><code>(ending percentage - starting percentage) * 24 kWh (the battery capacity)
 </code></pre>
 <p>Using this I plot the computed kWh against the measured kWh.  Doing this produces:</p>
-<p><img src="images/comp_vs_meas_kwh.png" alt="Computed vs Measured kWh"></p>
+<p><img src="comp_vs_meas_kwh.png" alt="Computed vs Measured kWh"></p>
 <p>As you can see the values match very well.</p>
 <p>Once I established the accuracy of computing the kWh consumption based on the change in the percentage of the battery charge indicator I could use this to understand the accuracy of the other dash readouts.</p>
 <p>Comparing the MPGe (or miles/kWh) estimated on the dash to the values computed I found that it was the results varies quite a bit. As we can see here the computed MPGe for a given dashboard MPGe can vary quite a bit.</p>
-<p><img src="images/comp_vs_meas_mpge.png" alt="Computed vs Indicated MPGe">
+<p><img src="comp_vs_meas_mpge.png" alt="Computed vs Indicated MPGe">
  </p>
 <p>If we look at the error in each data point and plot that on a histogram we get:</p>
-<p><img src="images/mpge_overestim.png" alt="MPGe Overestimation"></p>
+<p><img src="mpge_overestim.png" alt="MPGe Overestimation"></p>
 <p>From which I computed the average overestimation of 17%. Even though the dashboard indicator over-estimates the MPGe my actual MPGe after a year of driving was 115 which is higher than the value quoted by Fiat.</p>
 <p> When looking at EVSE&rsquo;s (chargers) they quote the amount of time it takes to fully charge a car.  I don&rsquo;t find this that useful. I often worry that my current charge is not adequate for where I&rsquo;m trying to go and I want to know how how long it will take to charge to get X extra miles. I found that expressing charge rates in miles of driving per hour of charging to be useful for this. The results above are averages based on 66 individual partial charges. I did tend to notice that the car will charge slower as it approaches 100% so you can actually get above these rates if you are only partially charging the car.</p>
 <p> </p>
