@@ -1,470 +1,667 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+<html lang="en">
 
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<head>
+	<meta name="generator" content="Hugo 0.117.0">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Dane&#39;s Blog on Travel and Data</title>
-  <meta name="author" content="" />
-  <meta name="description"
-        content=""/>
+  <title>Travel and Data</title>
+  <meta name="author" content="dane">
+  <meta name="description" content="a personal blog">
+  <meta name="keywords" content="blog,developer,personal">
 
-
-  <meta name="generator" content="Hugo 0.117.0">
-
-  
-  <meta itemprop="name" content="Dane&#39;s Blog on Travel and Data"/>
-  <meta itemprop="description"
-        content=""/>
-  <meta itemprop="image"
-        content=""/>
-
-  
-  <meta property="og:title" content="Dane&#39;s Blog on Travel and Data"/>
-  <meta property="og:type"
-        content="website"/>
-  <meta property="og:url" content="http://danecollins.github.io/"/>
-  <meta property="og:image"
-        content=""/>
-  <meta property="og:description"
-        content=""/>
-  <meta property="og:site_name" content="Dane&#39;s Blog on Travel and Data"/>
-  <meta property="article:section" content=""/>
-
-  
-  
   <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:site"
-        content=""/>
-  <meta name="twitter:title" content="Dane&#39;s Blog on Travel and Data"/>
-  <meta name="twitter:description"
-        content=""/>
-  <meta name="twitter:creator"
-        content=""/>
-  <meta name="twitter:image:src"
-        content=""/>
+<meta name="twitter:title" content="Travel and Data"/>
+<meta name="twitter:description" content="a personal blog"/>
 
+  <meta property="og:title" content="Travel and Data" />
+<meta property="og:description" content="a personal blog" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://danecollins.github.io/" />
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
   
-    <link rel="alternate" type="application/rss+xml" href="http://danecollins.github.io/index.xml" title="Dane's Blog on Travel and Data" />
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css" rel="stylesheet" type="text/css">
 
+  <link rel="stylesheet" href="/sass/main.css">
+
+  <link rel="stylesheet" href="/zoomjs/zoom.min.css">
+
+  <script src=/js/lazysizes.min.js></script>
+
+  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Travel and Data" />
   
-  <link rel="stylesheet" type="text/css" href="/css/capsule.min.css"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   
-  
 
-  
-  </head>
+</head>
 
 
-  <body style="min-height:100vh;display:flex;flex-direction:column">
 
-    <section class="hero is-dark is-medium">
-
-  
-  <div class="hero-head">
-
-    <nav class="navbar has-shadow"
-         role="navigation" aria-label="main navigation">
-      <div class="container">
-
-        <div class="navbar-brand">
-          <a class="navbar-item" href="/">
-            <div class="title is-4">&nbsp;Dane&#39;s Blog on Travel and Data</div>
-          </a>
-
+<body ontouchstart="">
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top ">
+  <div class="container-fluid">
+    
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://danecollins.github.io">Travel and Data</a>
+    </div>
+    
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
           
-          <label role="button" class="navbar-burger has-text-light"
-                 aria-label="menu" aria-expanded="false"
-                 for="navbar-burger-state">
-                 
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </label>
+          <li><a href="/" title="Home">Home</a></li>
+          
+          <li><a href="/archive/" title="Archive">Archive</a></li>
+          
+          <li><a href="/series/themes-guide/" title="Guide">Guide</a></li>
+          
+          <li><a href="/about/" title="About">About</a></li>
+          
+          <li><a href="https://github.com/danecollins/" title="Github">Github</a></li>
+          
+
+          <li class="search-icon">
+            <a href="javascript:void(0)">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</nav>
+<script>
+  
+  
+  
+  var $body = document.body;
+  var $toggle = document.querySelector(".navbar-toggle");
+  var $navbar = document.querySelector("#huxblog_navbar");
+  var $collapse = document.querySelector(".navbar-collapse");
+
+  var __HuxNav__ = {
+    close: function () {
+      $navbar.className = " ";
+      
+      setTimeout(function () {
+        
+        if ($navbar.className.indexOf("in") < 0) {
+          $collapse.style.height = "0px";
+        }
+      }, 400);
+    },
+    open: function () {
+      $collapse.style.height = "auto";
+      $navbar.className += " in";
+    },
+  };
+
+  
+  $toggle.addEventListener("click", function (e) {
+    if ($navbar.className.indexOf("in") > 0) {
+      __HuxNav__.close();
+    } else {
+      __HuxNav__.open();
+    }
+  });
+
+  
+
+  document.addEventListener("click", function (e) {
+    if (e.target == $toggle) return;
+    if (e.target.className == "icon-bar") return;
+    __HuxNav__.close();
+  });
+</script>
+  
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+
+<header class="intro-header" style="background-image: url('/img/home_image.jpg')">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="site-heading">
+        
+          <h1>Travel and Data</h1>
+          
+          
+          
+          
+          <span class="subheading">a personal blog</span>
         </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+
+  
+  <div class="container">
+    <div class="row">
+      
+      
+      
+      <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12
+      col-xs-12 postlist-container">
+        
+
+
+   <div class="post-preview">
+  <a href="/wyland/51-wilmingtonde/">
+      <h2 class="post-title">Wilmington, DE #44</h2>
+      
+      <h3 class="post-subtitle">In Search of Wyland Walls</h3>
+      
+      <div class="post-content-preview">
+        
+        After failed attempts to see a wall in Philadelphia and Wildwood, we finally got to see “Delaware Marine Mammals” in Wilmington. The wall is aged but the only original Wyland wall …
+         
+      </div>
+  </a>
+  <p class="post-meta">
+      Posted by  dane  on Mon, Sep 17, 2018
+  </p>
+</div>
+<hr>
+
+   <div class="post-preview">
+  <a href="/wyland/50-newyork/">
+      <h2 class="post-title">New York #40</h2>
+      
+      <h3 class="post-subtitle">In Search of Wyland Walls</h3>
+      
+      <div class="post-content-preview">
+        
+        New York is a festive place to visit at Christmas. While the purpose of the visit was to take in the holiday decorations we could not pass up the opportunity to see “Inner City …
+         
+      </div>
+  </a>
+  <p class="post-meta">
+      Posted by  dane  on Tue, Dec 20, 2016
+  </p>
+</div>
+<hr>
+
+   <div class="post-preview">
+  <a href="/wyland/49-destin/">
+      <h2 class="post-title">Destin #88</h2>
+      
+      <h3 class="post-subtitle">In Search of Wyland Walls</h3>
+      
+      <div class="post-content-preview">
+        
+        All of our trips tracking down Walls have been fun and adventurous, but none as much as going to see “Marine Life off the Gulf”.
+We had no travel plans to see walls this year but a …
+         
+      </div>
+  </a>
+  <p class="post-meta">
+      Posted by  dane  on Mon, Sep 28, 2015
+  </p>
+</div>
+<hr>
+
+   <div class="post-preview">
+  <a href="/posts/year_with_500/">
+      <h2 class="post-title">A year with the Fiat 500e</h2>
+      
+      <div class="post-content-preview">
+        
+        As I complete my first year with the 500e I wanted to share some of the data I have been collecting in case others might find it interesting.
+Summary of what I learned looking at …
+         
+      </div>
+  </a>
+  <p class="post-meta">
+      Posted by  dane  on Sun, May 31, 2015
+  </p>
+</div>
+<hr>
+
+   <div class="post-preview">
+  <a href="/posts/mpge/">
+      <h2 class="post-title">What is MPGe?</h2>
+      
+      <div class="post-content-preview">
+        
+        Everyone is used to seeing car mileage MPG (miles-per-gallon) ratings. Since electric cars don&amp;rsquo;t use gasoline the traditional MPG rating is not applicable, so the electric …
+         
+      </div>
+  </a>
+  <p class="post-meta">
+      Posted by  dane  on Tue, Aug 12, 2014
+  </p>
+</div>
+<hr>
+
+   <div class="post-preview">
+  <a href="/wyland/48-sanfrancisco/">
+      <h2 class="post-title">San Francisco #61</h2>
+      
+      <h3 class="post-subtitle">In Search of Wyland Walls</h3>
+      
+      <div class="post-content-preview">
+        
+        When our adventure started back in 2010 our first wall was close to home at Pier 39 in San Francisco. There were 2 walls in that area but due to construction around the aquarium it …
+         
+      </div>
+  </a>
+  <p class="post-meta">
+      Posted by  dane  on Sun, Jul 6, 2014
+  </p>
+</div>
+<hr>
+
+   <div class="post-preview">
+  <a href="/wyland/47-lauderdale/">
+      <h2 class="post-title">North Lauderdale #99</h2>
+      
+      <h3 class="post-subtitle">In Search of Wyland Walls</h3>
+      
+      <div class="post-content-preview">
+        
+        Wow! What a way to end our Florida trip.
+Water for Life is the last wall Wyland painted in the US (and the last wall still in existence) and so much is notable about it. The first …
+         
+      </div>
+  </a>
+  <p class="post-meta">
+      Posted by  dane  on Mon, Feb 24, 2014
+  </p>
+</div>
+<hr>
+
+   <div class="post-preview">
+  <a href="/wyland/46-miami/">
+      <h2 class="post-title">Miami #78</h2>
+      
+      <h3 class="post-subtitle">In Search of Wyland Walls</h3>
+      
+      <div class="post-content-preview">
+        
+        Florida Marine Life was painted in 1998 and it makes me wonder how different the area might have been then. Today, there is a light rail train that blocks part of the wall and a …
+         
+      </div>
+  </a>
+  <p class="post-meta">
+      Posted by  dane  on Fri, Feb 21, 2014
+  </p>
+</div>
+<hr>
+
+   <div class="post-preview">
+  <a href="/wyland/45-keylargo/">
+      <h2 class="post-title">Key Largo #95</h2>
+      
+      <h3 class="post-subtitle">In Search of Wyland Walls</h3>
+      
+      <div class="post-content-preview">
+        
+        It was a long drive from Sarasota to Key Largo but the alligators we saw in the Everglades made the drive worth it. “Keys to the Sea_“_ is a bit different from many of the other …
+         
+      </div>
+  </a>
+  <p class="post-meta">
+      Posted by  dane  on Thu, Feb 20, 2014
+  </p>
+</div>
+<hr>
+
+   <div class="post-preview">
+  <a href="/wyland/44-keywest/">
+      <h2 class="post-title">Key West #52</h2>
+      
+      <h3 class="post-subtitle">In Search of Wyland Walls</h3>
+      
+      <div class="post-content-preview">
+        
+        Getting to Key West was a scenic drive but took longer than we expected. Finding the wall took a bit more time. There are times when we walk up to walls and are awed by them and …
+         
+      </div>
+  </a>
+  <p class="post-meta">
+      Posted by  dane  on Thu, Feb 20, 2014
+  </p>
+</div>
+<hr>
+
+
+
+<ul class="pager">
+  
+  <li class="previous">
+      <a href="/page/2/">&larr; Newer Posts</a>
+  </li>
+  
+  
+  <li class="next">
+      <a href="/page/4/">Older Posts &rarr;</a>
+  </li>
+  
+</ul>
+
+
+      </div>
+      
+      <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12
+      col-xs-12 sidebar-container">
 
         
-        <input type="checkbox" id="navbar-burger-state"/>
-                              
+        <section>
+  
+  
+  <h5>FEATURED TAGS</h5>
+  <div class="tags">
+    
+    <a href="/tags/cycling/">Cycling</a>
+    
+    <a href="/tags/dogpark/">DogPark</a>
+    
+    <a href="/tags/evs/">EVs</a>
+    
+    <a href="/tags/flowers/">Flowers</a>
+    
+    <a href="/tags/nationalpark/">NationalPark</a>
+    
+    <a href="/tags/rocks/">Rocks</a>
+    
+    <a href="/tags/statepark/">StatePark</a>
+    
+    <a href="/tags/wyland/">Wyland</a>
+    
+  </div>
+</section>
+        
+<section class="visible-md visible-lg">
+  <hr>
+  
+  <h5><a href=/about/>ABOUT ME</a></h5>
+  
 
-        <div class="navbar-menu">
-          <div class="navbar-end">
-          </div>
-        </div>
+  
+  <div class="short-about">
+    
+    <img src="/img/home-bg.jpg" />
+    
+    
+    <p>a personal website</p>
+    
+    
+    <ul class="list-inline">
 
-      </div>
-    </nav>
+<li>
+  <a href="https://github.com/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://linkedin.com/in/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://twitter.com/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://facebook.com/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://gitlab.com/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://weibo.com/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-weibo fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://www.zhihu.com/people/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-stack-1x fa-inverse">知</i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://mastodon.social/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+
+<li>
+  <a href="/index.xml" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li></ul>
 
   </div>
-
 </section>
 
+        
+        
 
-    <section class="section" style="flex:1">
+<hr>
+<h5>FRIENDS</h5>
+<ul class="list-inline">
+  
+  <li><a href="https://gohugo.io" target="_blank">John Doe</a></li>
+  
+  <li><a href="https://gohugo.io" target="_blank">John Doe</a></li>
+  
+</ul>
 
-      <div class="container">
-        <div class="columns">
 
-          <div class="column">
-            
-            <div style="min-height:56vh">
-                <article class="media">
-  <div class="media-content">
-
-    <p class="title is-4"><a href="http://danecollins.github.io/wyland/20-santamonica/">Chicago #73</a></p>
-    <p class="subtitle is-6 mb-2">
-      <span class="icon is-small"><i class="far fa-calendar-alt"></i></span>
-      <span class="mr-2">Dec 16, 2011</span>
-      <span class="icon is-small"><i class="far fa-clock"></i></span>
-      <span>1 min.</span>
-    </p>
-
-    <div class="content">Our company Christmas party was in Santa Monica and since we needed to spend the night it gave us a great opportunity to visit “Santa Monica’s Marine Life” on the Pier. With a clear and crisp morning we took a nice walk to the pier and walked the entire pier looking for the mural but to no avail. We asked at the police station on the pier but they could not help us.</div>
-
-  </div>
-</article>
-
-                <article class="media">
-  <div class="media-content">
-
-    <p class="title is-4"><a href="http://danecollins.github.io/wyland/19-chicago/">Chicago #73</a></p>
-    <p class="subtitle is-6 mb-2">
-      <span class="icon is-small"><i class="far fa-calendar-alt"></i></span>
-      <span class="mr-2">Sep 3, 2011</span>
-      <span class="icon is-small"><i class="far fa-clock"></i></span>
-      <span>1 min.</span>
-    </p>
-
-    <div class="content">We went to spend the weekend in Chicago. It was our first time there and we had a great time. When it came time to look for the The Windy Whales we were not sure what we would find. Wikipedia lists the wall as extinct. We had no trouble finding the Inter-Continental hotel but when we got there we found that they had built an apartment building covering most of it.</div>
-
-  </div>
-</article>
-
-                <article class="media">
-  <div class="media-content">
-
-    <p class="title is-4"><a href="http://danecollins.github.io/wyland/18-portland/">Portland #36</a></p>
-    <p class="subtitle is-6 mb-2">
-      <span class="icon is-small"><i class="far fa-calendar-alt"></i></span>
-      <span class="mr-2">Oct 7, 2010</span>
-      <span class="icon is-small"><i class="far fa-clock"></i></span>
-      <span>2 min.</span>
-    </p>
-
-    <div class="content">One of the first things we noticed walking by Whales off the Coast of Maine was the sea turtle which we saw for the first time. This wall is in a great spot as you can walk right along it for the full length of the pier.
-The sun has taken it’s toll on this wall with the images showing significant fading but it’s definitely worth seeing.
-Like the wall in New Bedford this wall let’s you see several different types of whales as well as dolphins all on one wall.</div>
-
-  </div>
-</article>
-
-                <article class="media">
-  <div class="media-content">
-
-    <p class="title is-4"><a href="http://danecollins.github.io/wyland/17-portsmouth/">Redondo Beach #31</a></p>
-    <p class="subtitle is-6 mb-2">
-      <span class="icon is-small"><i class="far fa-calendar-alt"></i></span>
-      <span class="mr-2">Oct 6, 2010</span>
-      <span class="icon is-small"><i class="far fa-clock"></i></span>
-      <span>2 min.</span>
-    </p>
-
-    <div class="content">Looking at the online pictures of Isle of Shoals Humpbacks it looks wonderful and we were really looking forward to seeing it. Upon getting there though it was sad to see the shape the wall is in.
-It’s clear this was a great wall when it was created but it has not aged well with a lot of the paint missing. An additional disappointment was seeing graffiti on the wall.</div>
-
-  </div>
-</article>
-
-                <article class="media">
-  <div class="media-content">
-
-    <p class="title is-4"><a href="http://danecollins.github.io/wyland/14-portsmouth/">Redondo Beach #31</a></p>
-    <p class="subtitle is-6 mb-2">
-      <span class="icon is-small"><i class="far fa-calendar-alt"></i></span>
-      <span class="mr-2">Oct 4, 2010</span>
-      <span class="icon is-small"><i class="far fa-clock"></i></span>
-      <span>1 min.</span>
-    </p>
-
-    <div class="content">I always wonder how Wyland selected the locations for his walls. Some just seem too secluded for how great they are but the Great Whales of New Bedford is not one of those. As you drive in to New Bedford you just can’t miss the walls of the Marine Terminal with whales covering all sides of the building. Given the significance of whales to New Bedford this wall seems so at home here and being one of the newer walls is in such great shape.</div>
-
-  </div>
-</article>
-
-                <article class="media">
-  <div class="media-content">
-
-    <p class="title is-4"><a href="http://danecollins.github.io/wyland/16-newbedford/">Redondo Beach #31</a></p>
-    <p class="subtitle is-6 mb-2">
-      <span class="icon is-small"><i class="far fa-calendar-alt"></i></span>
-      <span class="mr-2">Oct 4, 2010</span>
-      <span class="icon is-small"><i class="far fa-clock"></i></span>
-      <span>1 min.</span>
-    </p>
-
-    <div class="content">I always wonder how Wyland selected the locations for his walls. Some just seem too secluded for how great they are but the Great Whales of New Bedford is not one of those. As you drive in to New Bedford you just can’t miss the walls of the Marine Terminal with whales covering all sides of the building. Given the significance of whales to New Bedford this wall seems so at home here and being one of the newer walls is in such great shape.</div>
-
-  </div>
-</article>
-
-                <article class="media">
-  <div class="media-content">
-
-    <p class="title is-4"><a href="http://danecollins.github.io/wyland/15-newlondon/">Redondo Beach #31</a></p>
-    <p class="subtitle is-6 mb-2">
-      <span class="icon is-small"><i class="far fa-calendar-alt"></i></span>
-      <span class="mr-2">Oct 3, 2010</span>
-      <span class="icon is-small"><i class="far fa-clock"></i></span>
-      <span>2 min.</span>
-    </p>
-
-    <div class="content">Driving into New London, CT while staring at the iPhone for directions and looking for street signs we managed to drive right past The Great Sperm Whales without seeing it which is pretty hard as it’s right on the main street. The wall is in great shape and is one of the most approachable walls we’ve seen. The wall is big and it was pretty hard to get all of it in a picture so here is part of it.</div>
-
-  </div>
-</article>
-
-                <article class="media">
-  <div class="media-content">
-
-    <p class="title is-4"><a href="http://danecollins.github.io/wyland/13-saltlake/">Redondo Beach #31</a></p>
-    <p class="subtitle is-6 mb-2">
-      <span class="icon is-small"><i class="far fa-calendar-alt"></i></span>
-      <span class="mr-2">Aug 8, 2010</span>
-      <span class="icon is-small"><i class="far fa-clock"></i></span>
-      <span>2 min.</span>
-    </p>
-
-    <div class="content">When we first started looking at the location of all the walls and I saw Salt Lake City I figured it would be a long time before we got to that one. Goes to show how life can be unpredictable.
-Just 5 months after we started this adventure we find ourselves moving to Boulder and driving right through Salt Lake City on our way there. With just a little planning it was easy to get there during the day when we could see World of Ocean Life.</div>
-
-  </div>
-</article>
-
-                <article class="media">
-  <div class="media-content">
-
-    <p class="title is-4"><a href="http://danecollins.github.io/wyland/11-longbeach/">Laguna Beach #68</a></p>
-    <p class="subtitle is-6 mb-2">
-      <span class="icon is-small"><i class="far fa-calendar-alt"></i></span>
-      <span class="mr-2">Jul 1, 2010</span>
-      <span class="icon is-small"><i class="far fa-clock"></i></span>
-      <span>2 min.</span>
-    </p>
-
-    <div class="content">We found ourselves quite lucky when we got to the Long Beach Convention Center to find that there was no conference. The place was deserted and this make it quite each for us to go around the entire conference center and see the entire wall. If you go to the hotel next to the convention center you can go up to the 17th floor and from the hallway windows you can get a great overall view of the painting but unfortunately it’s still not high enough to be able to see the painting on the roof.</div>
-
-  </div>
-</article>
-
-                <article class="media">
-  <div class="media-content">
-
-    <p class="title is-4"><a href="http://danecollins.github.io/wyland/12-redondobeach/">Redondo Beach #31</a></p>
-    <p class="subtitle is-6 mb-2">
-      <span class="icon is-small"><i class="far fa-calendar-alt"></i></span>
-      <span class="mr-2">Jul 1, 2010</span>
-      <span class="icon is-small"><i class="far fa-clock"></i></span>
-      <span>1 min.</span>
-    </p>
-
-    <div class="content">We had actually seen Gray Whale Migration once before. One of the few walls we were not seeing for the first time but it’s just as impressive the second time around.
-Seeing a beautiful wall like this where the owners let so much vegetation cover it up makes me wonder why they wanted it. It would be so easy to keep it clear. This wall contains his first blue whale on a whaling wall.</div>
-
-  </div>
-</article>
-
-            </div>
-
-            <br>
-            <br>
-            <br>
-
-            
-            <nav class="pagination" role="pagination" aria-label="pagination">
-  <a href="/page/2/" class="pagination-previous">
-    <span class="icon is-small"><i class="fas fa-chevron-left"></i></span>
-  </a>
-  <a href="/page/4/" class="pagination-next">
-    <span class="icon is-small"><i class="fas fa-chevron-right"></i></span>
-  </a>
-
-  <ul class="pagination-list">
-    <li><a href="/" class="pagination-link">
-      1
-    </a></li>
-    <li><a href="/page/2/" class="pagination-link">
-      2
-    </a></li>
-
-    <li><a href="/page/3/" class="pagination-link is-current">
-      3
-    </a></li>
-    <li><a href="/page/4/" class="pagination-link">
-      4
-    </a></li>
-
-  </ul>
-</nav>
-
-          </div>
-
-          <div class="column is-narrow">
-            
-            <aside class="menu">
-  <p class="menu-label">Categories:</p>
-  <ul class="menu-list">
-    <li>
-      <a href="/categories/travel">
-        <div class="tags has-addons">
-          <span class="tag">Travel</span>
-          <span class="tag is-link">11</span>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="/categories/wyland">
-        <div class="tags has-addons">
-          <span class="tag">Wyland</span>
-          <span class="tag is-link">26</span>
-        </div>
-      </a>
-    </li>
-  </ul>
-  <p class="menu-label">Tags:</p>
-  <ul class="menu-list">
-    <li>
-      <a href="/tags/cycling">
-        <div class="tags has-addons">
-          <span class="tag">Cycling</span>
-          <span class="tag is-link">1</span>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="/tags/dogpark">
-        <div class="tags has-addons">
-          <span class="tag">Dogpark</span>
-          <span class="tag is-link">1</span>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="/tags/evs">
-        <div class="tags has-addons">
-          <span class="tag">Evs</span>
-          <span class="tag is-link">2</span>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="/tags/flowers">
-        <div class="tags has-addons">
-          <span class="tag">Flowers</span>
-          <span class="tag is-link">1</span>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="/tags/nationalpark">
-        <div class="tags has-addons">
-          <span class="tag">Nationalpark</span>
-          <span class="tag is-link">1</span>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="/tags/rocks">
-        <div class="tags has-addons">
-          <span class="tag">Rocks</span>
-          <span class="tag is-link">4</span>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="/tags/statepark">
-        <div class="tags has-addons">
-          <span class="tag">Statepark</span>
-          <span class="tag is-link">5</span>
-        </div>
-      </a>
-    </li>
-  </ul>
-</aside>
-
-          </div>
-
-        </div>
       </div>
+      
 
-    </section>
+    </div>
+  </div>
 
-    <footer class="footer">
+  
+
+  
+<footer>
   <div class="container">
-    <nav class="level">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <ul class="list-inline text-center">
 
-      <div class="level-item has-text-centered">
-        <a href="http://danecollins.github.io/travel/" class="heading">
-          <span class="header">Travels</span>
-        </a>
-      </div><div class="level-item has-text-centered">
-        <a href="http://danecollins.github.io/posts/" class="heading">
-          <span class="header">Posts</span>
-        </a>
-      </div><div class="level-item has-text-centered">
-        <a href="http://danecollins.github.io/wyland/" class="heading">
-          <span class="header">Wylands</span>
-        </a>
-      </div><div class="level-item has-text-centered">
-        <a href="http://danecollins.github.io/about/" class="heading">
-          <span class="header"></span>
-        </a>
-      </div><div class="level-item has-text-centered">
-        <a href="http://danecollins.github.io/archive/" class="heading">
-          <span class="header"></span>
-        </a>
+<li>
+  <a href="https://github.com/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://linkedin.com/in/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://twitter.com/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://facebook.com/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://gitlab.com/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://weibo.com/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-weibo fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://www.zhihu.com/people/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-stack-1x fa-inverse">知</i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://mastodon.social/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+
+<li>
+  <a href="/index.xml" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li></ul>
+
+        <p class="copyright text-muted">
+          Copyright &copy; Travel and Data 2023  
+          <br>
+          Powered by <a href="https://gohugo.io">Hugo</a>
+        </p>
       </div>
-
-    </nav>
-
-    <nav class="level">
-
-      <div class="level-left has-text-centered">
-        <div class="level-item">
-          <form class="control has-icons has-icons-right" method="get"
-                action="https://duckduckgo.com">
-            <input class="input" type="text" name="q" maxlength="255"
-                   placeholder="Search">
-            <input class="input" type="hidden" name="sites"
-                   value="http://danecollins.github.io">
-            <span class="icon is-small is-right"><i class="fas fa-search"></i></span>
-          </form>
-        </div>
-      </div>
-
-      <div class="level-right has-text-centered">
-        <div class="level-item">
-
-          <a class="button" href="/">
-            <span class="icon"><i class="fas fa-home"></i></span>
-          </a> &nbsp;
-
-          
-
-          <a class="button"
-             href="/index.xml">
-            <span class="icon"><i class="fas fa-rss"></i></span>
-          </a>
-
-        </div>
-      </div>
-
-    </nav>
+    </div>
   </div>
 </footer>
 
+<script src=/js/jquery.min.js></script>
+<script src=/js/bootstrap.min.js crossorigin="anonymous"></script>
 
-  </body>
+
+
+<script src="/js/hux-blog.min.c4ea77041cd3edbfc8b2622cd887a9a5d8760a4162d14489e36d2a3fa4c90172.js"></script>
+
+
+<script src=/js/simple-jekyll-search.min.js></script>
+
+
+<script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/zoomjs/zoom.min.js"></script>
+
+</body>
 
 </html>

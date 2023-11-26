@@ -5,9 +5,6 @@
     <loc>http://danecollins.github.io/categories/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://danecollins.github.io/</loc>
-    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://danecollins.github.io/tags/flowers/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -23,11 +20,23 @@
     <loc>http://danecollins.github.io/categories/travel/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://danecollins.github.io/</loc>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://danecollins.github.io/travel/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://danecollins.github.io/travel/monastery/</loc>
     <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/59-milwaukee/</loc>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/tags/wyland/</loc>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/</loc>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://danecollins.github.io/travel/marin/</loc>
     <lastmod>2022-04-24T00:00:00+00:00</lastmod>
@@ -68,6 +77,39 @@
     <loc>http://danecollins.github.io/travel/garrapata/</loc>
     <lastmod>2021-09-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://danecollins.github.io/wyland/58-niagara/</loc>
+    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/57-toronto/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/56-myrtlebeach/</loc>
+    <lastmod>2018-09-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/55-wilmingtonnc/</loc>
+    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/54-norfolk/</loc>
+    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/53-washington/</loc>
+    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/52-baltimore/</loc>
+    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/51-wildwood/</loc>
+    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/51-wilmingtonde/</loc>
+    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/50-newyork/</loc>
+    <lastmod>2016-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/49-destin/</loc>
+    <lastmod>2015-09-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://danecollins.github.io/posts/year_with_500/</loc>
     <lastmod>2015-05-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -80,16 +122,73 @@
     <loc>http://danecollins.github.io/posts/mpge/</loc>
     <lastmod>2014-08-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://danecollins.github.io/wyland/48-sanfrancisco/</loc>
+    <lastmod>2014-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/47-lauderdale/</loc>
+    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/46-miami/</loc>
+    <lastmod>2014-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/45-keylargo/</loc>
+    <lastmod>2014-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/44-keywest/</loc>
+    <lastmod>2014-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/43-marathoncrane/</loc>
+    <lastmod>2014-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/42-marathon/</loc>
+    <lastmod>2014-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/40-homosassa/</loc>
+    <lastmod>2014-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/39-orlando/</loc>
+    <lastmod>2014-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/41-sarasota/</loc>
+    <lastmod>2014-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/38-orlando/</loc>
+    <lastmod>2014-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/withwyland/</loc>
+    <lastmod>2013-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/37-applevalley/</loc>
+    <lastmod>2013-07-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/35-honolulu/</loc>
+    <lastmod>2013-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/34-honolulu/</loc>
+    <lastmod>2013-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/36-honolulu/</loc>
+    <lastmod>2013-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/33-sealifepark/</loc>
+    <lastmod>2013-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/32-waikiki/</loc>
+    <lastmod>2013-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/30-kauai/</loc>
+    <lastmod>2013-05-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/29-newport/</loc>
+    <lastmod>2012-07-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://danecollins.github.io/wyland/26-vancouver/</loc>
     <lastmod>2012-02-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://danecollins.github.io/wyland/28-vancouveraquarium/</loc>
+    <lastmod>2012-02-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://danecollins.github.io/wyland/27-whiterock/</loc>
-    <lastmod>2012-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://danecollins.github.io/categories/wyland/</loc>
-    <lastmod>2012-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://danecollins.github.io/wyland/</loc>
     <lastmod>2012-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://danecollins.github.io/wyland/25-vancouver/</loc>

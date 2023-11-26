@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Dane&#39;s Blog on Travel and Data</title>
+    <title>Categories on Travel and Data</title>
     <link>http://danecollins.github.io/categories/</link>
-    <description>Recent content in Categories on Dane&#39;s Blog on Travel and Data</description>
+    <description>Recent content in Categories on Travel and Data</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://danecollins.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -13,15 +13,6 @@
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>http://danecollins.github.io/categories/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wyland</title>
-      <link>http://danecollins.github.io/categories/wyland/</link>
-      <pubDate>Wed, 22 Feb 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://danecollins.github.io/categories/wyland/</guid>
       <description></description>
     </item>
     
