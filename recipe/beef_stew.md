@@ -4,10 +4,10 @@
 Purchased  | Pantry Items
 -----------  | ------------
 | 2-3 lbs Cross Rib Roast  | 1/2 can tomato paste |
-| 1 onion                  | 2 cup red wine       |
-| 4 carrots                | 0 cans broth         |
+| 1 onion                  | 1 cup red wine       |
+| 4 carrots                | 1 cup  broth         |
 | 4 red potatoes           | 3 tbs flour w/ water |
-| 1 tomato chopped         | 1 tbs herb de provence |
+| 1 cap diced tomatoes     | 1 cup peas           |
 
 
 
