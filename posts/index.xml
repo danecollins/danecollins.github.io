@@ -38,5 +38,16 @@ As I look at this I see three uses for MPGe:
 As marketing metric to make electric cars seem very efficient As a mechanism to compare efficiency between electric vehicles As a way to compare cost of operating electric versus gas cars Unfortunately, what I&amp;rsquo;ve learned is that while the industry computed MPGe can be used for #1 and #2 it is quite misleading if used for #3!</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://danecollins.github.io/posts/watch/watch_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://danecollins.github.io/posts/watch/watch_2/</guid>
+      <description>Title: Apple Health Data Analysis Series - First Looks Date: 2022-05-13 11:30:00 Category: posts Tags: Data Watch author: Dane Collins Summary: How can you do your own data analysis on Apple Health Data
+In this post we&amp;rsquo;ll take a look at what is in the data we received from the Health app.
+OverviewExpanding the DataOnce you have the data on your computer you will notice that it is a ZIP Archive and needs to be expanded.</description>
+    </item>
+    
   </channel>
 </rss>

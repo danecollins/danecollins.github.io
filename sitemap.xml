@@ -32,6 +32,9 @@
     <loc>http://danecollins.github.io/tags/rocks/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://danecollins.github.io/tags/travel/</loc>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://danecollins.github.io/categories/travel/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -170,17 +173,17 @@
     <loc>http://danecollins.github.io/wyland/37-applevalley/</loc>
     <lastmod>2013-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://danecollins.github.io/wyland/35-honolulu/</loc>
-    <lastmod>2013-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://danecollins.github.io/wyland/34-honolulu/</loc>
-    <lastmod>2013-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://danecollins.github.io/wyland/36-honolulu/</loc>
-    <lastmod>2013-06-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://danecollins.github.io/wyland/33-sealifepark/</loc>
     <lastmod>2013-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/35-honolulu/</loc>
+    <lastmod>2013-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/34-honolulu/</loc>
+    <lastmod>2013-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/36-honolulu/</loc>
+    <lastmod>2013-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://danecollins.github.io/wyland/32-waikiki/</loc>
     <lastmod>2013-05-26T00:00:00+00:00</lastmod>
@@ -226,9 +229,6 @@
   </url><url>
     <loc>http://danecollins.github.io/wyland/17-portsmouth/</loc>
     <lastmod>2010-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://danecollins.github.io/wyland/14-portsmouth/</loc>
-    <lastmod>2010-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://danecollins.github.io/wyland/16-newbedford/</loc>
     <lastmod>2010-10-04T00:00:00+00:00</lastmod>
@@ -277,5 +277,7 @@
     <loc>http://danecollins.github.io/archive/</loc>
   </url><url>
     <loc>http://danecollins.github.io/healthapp.jpeg/</loc>
+  </url><url>
+    <loc>http://danecollins.github.io/posts/watch/watch_2/</loc>
   </url>
 </urlset>

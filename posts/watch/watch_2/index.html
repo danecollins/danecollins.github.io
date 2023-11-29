@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    
+  <title> | Travel and Data</title>
+  <meta name="author" content="dane">
+  <meta name="description" content="Title: Apple Health Data Analysis Series - First Looks Date: 2022-05-13 11:30:00 Category: posts Tags: Data Watch author: Dane Collins Summary: How can you do your own data analysis on Apple Health Data
+In this post we&rsquo;ll take a look at what is in the data we received from the Health app.
+OverviewExpanding the DataOnce you have the data on your computer you will notice that it is a ZIP Archive and needs to be expanded.">
+  <meta name="keywords" content="blog,developer,personal">
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Title: Apple Health Data Analysis Series - First Looks Date: 2022-05-13 11:30:00 Category: posts Tags: Data Watch author: Dane Collins Summary: How can you do your own data analysis on Apple Health Data
+In this post we&rsquo;ll take a look at what is in the data we received from the Health app.
+OverviewExpanding the DataOnce you have the data on your computer you will notice that it is a ZIP Archive and needs to be expanded."/>
+
+  <meta property="og:title" content="" />
+<meta property="og:description" content="Title: Apple Health Data Analysis Series - First Looks Date: 2022-05-13 11:30:00 Category: posts Tags: Data Watch author: Dane Collins Summary: How can you do your own data analysis on Apple Health Data
+In this post we&rsquo;ll take a look at what is in the data we received from the Health app.
+OverviewExpanding the DataOnce you have the data on your computer you will notice that it is a ZIP Archive and needs to be expanded." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://danecollins.github.io/posts/watch/watch_2/" /><meta property="article:section" content="posts" />
+
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
+  
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="/sass/main.css">
+
+  <link rel="stylesheet" href="/zoomjs/zoom.min.css">
+
+  <script src=/js/lazysizes.min.js></script>
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+
+</head>
+
+
+
+<body ontouchstart="">
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
+  <div class="container-fluid">
+    
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://danecollins.github.io">Travel and Data</a>
+    </div>
+    
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li><a href="/" title="Home">Home</a></li>
+          
+          <li><a href="/archive/" title="Archive">Archive</a></li>
+          
+          <li><a href="/series/themes-guide/" title="Guide">Guide</a></li>
+          
+          <li><a href="/about/" title="About">About</a></li>
+          
+          <li><a href="https://github.com/danecollins/" title="Github">Github</a></li>
+          
+
+          <li class="search-icon">
+            <a href="javascript:void(0)">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</nav>
+<script>
+  
+  
+  
+  var $body = document.body;
+  var $toggle = document.querySelector(".navbar-toggle");
+  var $navbar = document.querySelector("#huxblog_navbar");
+  var $collapse = document.querySelector(".navbar-collapse");
+
+  var __HuxNav__ = {
+    close: function () {
+      $navbar.className = " ";
+      
+      setTimeout(function () {
+        
+        if ($navbar.className.indexOf("in") < 0) {
+          $collapse.style.height = "0px";
+        }
+      }, 400);
+    },
+    open: function () {
+      $collapse.style.height = "auto";
+      $navbar.className += " in";
+    },
+  };
+
+  
+  $toggle.addEventListener("click", function (e) {
+    if ($navbar.className.indexOf("in") > 0) {
+      __HuxNav__.close();
+    } else {
+      __HuxNav__.open();
+    }
+  });
+
+  
+
+  document.addEventListener("click", function (e) {
+    if (e.target == $toggle) return;
+    if (e.target.className == "icon-bar") return;
+    __HuxNav__.close();
+  });
+</script>
+  
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+<style type="text/css">
+  header.intro-header {
+    position: relative;
+    background-image: url('');
+  }
+</style>
+
+<header class="intro-header style-text">
+
+  <div class="header-mask"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <div class="tags">
+            
+          </div>
+          <h1></h1>
+          <h2 class="subheading"></h2>
+          <span class="meta">
+            Posted by  dane 
+            on Mon, Jan 1, 0001
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+
+
+<article>
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              post-container">
+        <p>Title: Apple Health Data Analysis Series - First Looks
+Date: 2022-05-13 11:30:00
+Category: posts
+Tags: Data Watch
+author: Dane Collins
+Summary: How can you do your own data analysis on Apple Health Data</p>
+<p>In this post we&rsquo;ll take a look at what is in the data we received from the Health app.</p>
+<h2 id="overview">Overview<a class="anchorjs-link" href="#overview"></a></h2><h4 id="expanding-the-data">Expanding the Data<a class="anchorjs-link" href="#expanding-the-data"></a></h4><p>Once you have the data on your computer you will notice that it is a ZIP Archive and needs to be expanded.  When expanded, the data will create a directory named <strong>apple_health_export</strong> that contains:</p>
+<ul>
+<li>export.xml: this is the data file we will be using.</li>
+<li>export_cda.xml: this contains a subset of the data in export.xml so it is not needed.</li>
+<li>workout-routes/: these are <strong>GPX</strong> formatted files of the routes captured during excersize events.  We will not analyze these.</li>
+<li>eletrocardiograms/: these are <strong>CSV</strong> files of the captured electrocardiograms.</li>
+</ul>
+<h4 id="digging-into-exportxml">Digging into export.xml<a class="anchorjs-link" href="#digging-into-exportxml"></a></h4><p>There is a huge amount of information in the XML file and it is useful to understand some of the basics as they will be useful when we analyze the data.</p>
+<p>The first hundred of so lines of the file explain what fields can exist in the file.  Once we&rsquo;re past that, all the data is in <strong>Record</strong> fields.</p>
+<h5 id="record-field">Record field<a class="anchorjs-link" href="#record-field"></a></h5><p>The first field in the record is <strong>type</strong> which indicates what data is in the record.  There are a large number of these including types like:</p>
+<ul>
+<li>HKQuantityTypeIdentifierHeartRate</li>
+<li>HKQuantityTypeIdentifierRestingHeartRate</li>
+<li>HKQuantityTypeIdentifierEnvironmentalAudioExposure</li>
+<li>HKQuantityTypeIdentifierHeadphoneAudioExposure</li>
+<li>HKQuantityTypeIdentifierBloodPressureSystolic</li>
+<li>HKQuantityTypeIdentifierBloodPressureDiastolic</li>
+<li>HKQuantityTypeIdentifierStepCount</li>
+<li>HKQuantityTypeIdentifierDistanceWalkingRunning</li>
+<li>HKQuantityTypeIdentifierDistanceCycling</li>
+<li>HKQuantityTypeIdentifierVO2Max</li>
+<li>HKQuantityTypeIdentifierFlightsClimbed</li>
+<li>HKQuantityTypeIdentifierAppleStandTime</li>
+<li>HKCategoryTypeIdentifierAppleStandHour</li>
+<li>HKQuantityTypeIdentifierHeartRateVariabilitySDNN</li>
+<li>HKQuantityTypeIdentifierWalkingHeartRateAverage</li>
+<li>HKQuantityTypeIdentifierBasalEnergyBurned</li>
+<li>HKQuantityTypeIdentifierActiveEnergyBurned</li>
+<li>HKQuantityTypeIdentifierAppleExerciseTime'</li>
+</ul>
+<p>Each record field will have a <strong>creationDate</strong>, a <strong>startDate</strong> and an <strong>endDate</strong> even if the data is a measurement at a single point in time.</p>
+<p>The record field will have a <strong>sourceName</strong> which is the device or application that created the record. This field can be very useful since some record types can be collected from multiple devices.  For example, StepCount can be collected by an iPhone and an Apple Watch.  When displaying steps, the Health and Fitness apps will attempt to merge this data but it is kept separate in the export.xml.</p>
+<p><strong>Note:</strong> I have found that the merging of phone and watch step data can lead to significant over-estimation of steps.  By using the raw data in the export.xml you can keep these values separate.</p>
+<p>The data value is in a <strong>value</strong> field with the unit name for the field being in a <strong>unit</strong> field.</p>
+<p>Some records will also have a <strong>device</strong> field which contains information about the hardware that generated the record.</p>
+<p>If you are only interested in performing data analysis on the basic information types (steps for example) you do not need to understand the format of the XML file as I will provide parsers to extract that data and you can skip to the next blog post.</p>
+<p>The rest of this post will go into some of the details of the XML file. I won&rsquo;t cover each type individually as you will see they are all quite similar in structure.</p>
+<h2 id="details">Details<a class="anchorjs-link" href="#details"></a></h2><p>Once unpacked from the ZIP file you will note that the export.xml is quite large.  In my case the files has almost 8M lines.</p>
+<h4 id="heart-rate">Heart Rate<a class="anchorjs-link" href="#heart-rate"></a></h4><p>Here is a typical Heart Rate record</p>
+<pre tabindex="0"><code> &lt;Record type=&#34;HKQuantityTypeIdentifierHeartRate&#34; 
+         sourceName=&#34;Dane’s Apple Watch&#34; 
+         sourceVersion=&#34;7.6.2&#34; 
+         device=&#34;&amp;lt;&amp;lt;HKDevice: 0x280bec690&amp;gt;, name:Apple Watch, manufacturer:Apple Inc., model:Watch, hardware:Watch5,4, software:7.6.2&amp;gt;&#34; 
+         unit=&#34;count/min&#34; 
+         creationDate=&#34;2021-09-25 16:31:44 -0700&#34; 
+         startDate=&#34;2021-09-25 16:30:38 -0700&#34; 
+         endDate=&#34;2021-09-25 16:30:38 -0700&#34; 
+         value=&#34;53.0572&#34;&gt;
+  &lt;MetadataEntry key=&#34;HKMetadataKeyHeartRateMotionContext&#34; 
+                 value=&#34;0&#34;/&gt;
+ &lt;/Record&gt;
+</code></pre><p>A few things to note here.  The value is usually an integer if captured by the heart rate app.  The ECG app computes an average heart rate over the ECG and stores a floating point value.</p>
+<p>There is additional data in the record for the motion context but I can only guess at what its value means.</p>
+<h4 id="distance">Distance<a class="anchorjs-link" href="#distance"></a></h4><p>Here is a typical distance record.</p>
+<pre tabindex="0"><code> &lt;Record type=&#34;HKQuantityTypeIdentifierDistanceWalkingRunning&#34; 
+         sourceName=&#34;Dane’s Apple Watch&#34; 
+         sourceVersion=&#34;7.5&#34; device=&#34;&amp;lt;&amp;lt;HKDevice: 0x280830410&amp;gt;, name:Apple Watch, manufacturer:Apple Inc., model:Watch, hardware:Watch5,4, software:7.5&amp;gt;&#34; 
+         unit=&#34;mi&#34; 
+         creationDate=&#34;2021-06-11 15:12:30 -0700&#34; 
+         startDate=&#34;2021-06-11 15:12:16 -0700&#34; 
+         endDate=&#34;2021-06-11 15:12:26 -0700&#34; 
+         value=&#34;0.0111951&#34;/&gt;
+</code></pre><p>The main thing to note is that the intevals for these records will vary. To get daily totals these value need to be summed by date.</p>
+<h4 id="energy">Energy<a class="anchorjs-link" href="#energy"></a></h4><p>Here is a typical energy record.</p>
+<pre tabindex="0"><code> &lt;Record type=&#34;HKQuantityTypeIdentifierBasalEnergyBurned&#34; 
+         sourceName=&#34;Dane’s Apple Watch&#34; 
+         sourceVersion=&#34;6.2.5&#34; device=&#34;&amp;lt;&amp;lt;HKDevice: 0x280bee6c0&amp;gt;, name:Apple Watch, manufacturer:Apple Inc., model:Watch, hardware:Watch5,4, software:6.2.5&amp;gt;&#34; 
+         unit=&#34;Cal&#34; 
+         creationDate=&#34;2020-05-29 12:33:00 -0700&#34; 
+         startDate=&#34;2020-05-29 12:14:17 -0700&#34; 
+         endDate=&#34;2020-05-29 12:28:08 -0700&#34; 
+         value=&#34;20.487&#34;/&gt;
+</code></pre><p>Again the intevals for these records will vary. To get daily totals these value need to be summed by date.</p>
+<h4 id="flights-climbed">Flights Climbed<a class="anchorjs-link" href="#flights-climbed"></a></h4><p>Here is the sample record for flights of stairs climbed</p>
+<pre tabindex="0"><code>Record type=&#34;HKQuantityTypeIdentifierFlightsClimbed&#34; sourceName=&#34;Dxi&#34; sourceVersion=&#34;12.0&#34; device=&#34;&amp;lt;&amp;lt;HKDevice: 0x28222b5c0&amp;gt;, name:iPhone, manufacturer:Apple, model:iPhone, hardware:iPhone10,4, software:12.0&amp;gt;&#34; unit=&#34;count&#34; creationDate=&#34;2018-10-10 16:40:26 -0700&#34; startDate=&#34;2018-10-10 16:25:48 -0700&#34; endDate=&#34;2018-10-10 16:26:05 -0700&#34; value=&#34;1&#34;/&gt;
+</code></pre><h2 id="converting-the-data">Converting the Data<a class="anchorjs-link" href="#converting-the-data"></a></h2><p>While there are ways to use the XML data directly I find it too large to work with easily.  I also find that I am usually working on analyzing only a couple of metrics at a time and having them separated into individual data sets is more convenient.</p>
+<p>In the next post I&rsquo;ll cover using a Python script to convert the data into separate data files.</p>
+
+
+        <hr style="visibility: hidden;" />
+        <ul class="pager">
+          
+          
+          <li class="next">
+            <a href="/healthapp.jpeg/" data-toggle="tooltip" data-placement="top" title="">
+              Next<br>
+              <span></span>
+            </a>
+          </li>
+          
+        </ul>
+        <hr style="visibility: hidden;" />
+
+        
+        
+
+
+
+<div class="giscus" id="comments"></div>
+<script src="https://giscus.app/client.js" 
+  data-repo="roninro/hugo-theme-puppet" 
+  data-repo-id="R_kgDOHuvyhw"
+  data-category="General"
+  data-category-id="DIC_kwDOHuvyh84CQjDo"
+  data-mapping="pathname"
+  data-strict="0" 
+  data-reactions-enabled="1" 
+  data-emit-metadata="0" 
+  data-input-position="top"
+  data-theme="light_tritanopia"
+  data-lang="en"
+  crossorigin="anonymous"
+  async>
+  </script>
+
+
+
+
+      </div>
+
+      
+      
+      
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              sidebar-container">
+
+        
+        
+        <section>
+  
+  
+  <hr class="hidden-sm hidden-xs">
+  
+  <h5>FEATURED TAGS</h5>
+  <div class="tags">
+    
+    <a href="/tags/cycling/">Cycling</a>
+    
+    <a href="/tags/data/">Data</a>
+    
+    <a href="/tags/dogpark/">DogPark</a>
+    
+    <a href="/tags/evs/">EVs</a>
+    
+    <a href="/tags/fitness/">Fitness</a>
+    
+    <a href="/tags/flowers/">Flowers</a>
+    
+    <a href="/tags/nationalpark/">NationalPark</a>
+    
+    <a href="/tags/rocks/">Rocks</a>
+    
+    <a href="/tags/statepark/">StatePark</a>
+    
+    <a href="/tags/travel/">Travel</a>
+    
+    <a href="/tags/wyland/">Wyland</a>
+    
+  </div>
+</section>
+
+        
+        
+
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+  
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <ul class="list-inline text-center">
+
+<li>
+  <a href="https://linkedin.com/in/danec" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://mastodon.social/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+
+<li>
+  <a href="/index.xml" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li></ul>
+
+        <p class="copyright text-muted">
+          Copyright &copy; Travel and Data 2023  
+          <br>
+          Powered by <a href="https://gohugo.io">Hugo</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src=/js/jquery.min.js></script>
+<script src=/js/bootstrap.min.js crossorigin="anonymous"></script>
+
+
+
+<script src="/js/hux-blog.min.c4ea77041cd3edbfc8b2622cd887a9a5d8760a4162d14489e36d2a3fa4c90172.js"></script>
+
+
+<script src=/js/simple-jekyll-search.min.js></script>
+
+
+<script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/zoomjs/zoom.min.js"></script>
+
+</body>
+
+</html>
