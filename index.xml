@@ -6,7 +6,16 @@
     <description>Recent content on Travel and Data</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://danecollins.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://danecollins.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple Health Data Analysis Series - Part 1</title>
+      <link>http://danecollins.github.io/posts/watch/watch1/</link>
+      <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://danecollins.github.io/posts/watch/watch1/</guid>
+      <description>Do your own data analysis on Apple Health DataWhen Apple came out with the Watch and Health Apps they were quite limited and it seemed like they were not that useful. As Apple does with many products, it continued to improve these products, and there is now an abundance of data available through the Health App. Even with these improvements, the analyses that can be performed in the apps are limited.</description>
+    </item>
+    
     <item>
       <title>Lake Nacimiento during the poppy bloom</title>
       <link>http://danecollins.github.io/travel/nacimiento/</link>
@@ -687,6 +696,15 @@ We first found Laguna Coast which is on the side wall of a very cool store tha
       <guid>http://danecollins.github.io/wyland/01-sanfrancisco/</guid>
       <description>We have enjoyed Wyland&amp;rsquo;s work for many years and had seen some of his walls while traveling. One day while at Pier 39 in San Francisco we were looking at one of these walls and thinking how fun it would be to get our picture in front of some of them.
 With this simple first picture started what I&amp;rsquo;m sure will be a long term journey to search for these walls.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://danecollins.github.io/healthapp.jpeg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://danecollins.github.io/healthapp.jpeg/</guid>
+      <description></description>
     </item>
     
   </channel>

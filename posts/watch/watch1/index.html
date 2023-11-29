@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    
+  <title>Apple Health Data Analysis Series - Part 1 | Travel and Data</title>
+  <meta name="author" content="dane">
+  <meta name="description" content="Do your own data analysis on Apple Health DataWhen Apple came out with the Watch and Health Apps they were quite limited and it seemed like they were not that useful. As Apple does with many products, it continued to improve these products, and there is now an abundance of data available through the Health App. Even with these improvements, the analyses that can be performed in the apps are limited.">
+  <meta name="keywords" content="blog,developer,personal">
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Apple Health Data Analysis Series - Part 1"/>
+<meta name="twitter:description" content="Do your own data analysis on Apple Health DataWhen Apple came out with the Watch and Health Apps they were quite limited and it seemed like they were not that useful. As Apple does with many products, it continued to improve these products, and there is now an abundance of data available through the Health App. Even with these improvements, the analyses that can be performed in the apps are limited."/>
+
+  <meta property="og:title" content="Apple Health Data Analysis Series - Part 1" />
+<meta property="og:description" content="Do your own data analysis on Apple Health DataWhen Apple came out with the Watch and Health Apps they were quite limited and it seemed like they were not that useful. As Apple does with many products, it continued to improve these products, and there is now an abundance of data available through the Health App. Even with these improvements, the analyses that can be performed in the apps are limited." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://danecollins.github.io/posts/watch/watch1/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-11-28T00:00:00+00:00" />
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
+  
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="/sass/main.css">
+
+  <link rel="stylesheet" href="/zoomjs/zoom.min.css">
+
+  <script src=/js/lazysizes.min.js></script>
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+
+</head>
+
+
+
+<body ontouchstart="">
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
+  <div class="container-fluid">
+    
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://danecollins.github.io">Travel and Data</a>
+    </div>
+    
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li><a href="/" title="Home">Home</a></li>
+          
+          <li><a href="/archive/" title="Archive">Archive</a></li>
+          
+          <li><a href="/series/themes-guide/" title="Guide">Guide</a></li>
+          
+          <li><a href="/about/" title="About">About</a></li>
+          
+          <li><a href="https://github.com/danecollins/" title="Github">Github</a></li>
+          
+
+          <li class="search-icon">
+            <a href="javascript:void(0)">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</nav>
+<script>
+  
+  
+  
+  var $body = document.body;
+  var $toggle = document.querySelector(".navbar-toggle");
+  var $navbar = document.querySelector("#huxblog_navbar");
+  var $collapse = document.querySelector(".navbar-collapse");
+
+  var __HuxNav__ = {
+    close: function () {
+      $navbar.className = " ";
+      
+      setTimeout(function () {
+        
+        if ($navbar.className.indexOf("in") < 0) {
+          $collapse.style.height = "0px";
+        }
+      }, 400);
+    },
+    open: function () {
+      $collapse.style.height = "auto";
+      $navbar.className += " in";
+    },
+  };
+
+  
+  $toggle.addEventListener("click", function (e) {
+    if ($navbar.className.indexOf("in") > 0) {
+      __HuxNav__.close();
+    } else {
+      __HuxNav__.open();
+    }
+  });
+
+  
+
+  document.addEventListener("click", function (e) {
+    if (e.target == $toggle) return;
+    if (e.target.className == "icon-bar") return;
+    __HuxNav__.close();
+  });
+</script>
+  
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+<style type="text/css">
+  header.intro-header {
+    position: relative;
+    background-image: url('');
+  }
+</style>
+
+<header class="intro-header style-text">
+
+  <div class="header-mask"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <div class="tags">
+            
+            <a class="tag" href="/tags/data/" title="Data">Data</a>
+            
+            <a class="tag" href="/tags/fitness/" title="Fitness">Fitness</a>
+            
+          </div>
+          <h1>Apple Health Data Analysis Series - Part 1</h1>
+          <h2 class="subheading"></h2>
+          <span class="meta">
+            Posted by  dane 
+            on Tue, Nov 28, 2023
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+
+
+<article>
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              post-container">
+        <h3 id="do-your-own-data-analysis-on-apple-health-data">Do your own data analysis on Apple Health Data<a class="anchorjs-link" href="#do-your-own-data-analysis-on-apple-health-data"></a></h3><p>When Apple came out with the Watch and Health Apps they were quite limited and it seemed like they were not that useful.  As Apple does with many products, it continued to improve these products, and there is now an abundance of data available through the Health App. Even with these improvements, the analyses that can be performed in the apps are limited. At best you can see a graph of the data or look at the individual data points.</p>
+<p>This blog series will explain how to extract data from the Health app and then perform your own analysis of that data. By doing our own analysis, we can get more insight into the data than is possible from the built-in.  For example we can:</p>
+<ul>
+<li>look at long-term averages</li>
+<li>compare multiple metrics against each other</li>
+<li>filter out erroneous data</li>
+<li>combine data with data from other sources</li>
+</ul>
+<p>The information in the Health app will depend on how a user configures it, containing only the data types applicable to that user.  In this series, we will cover the common data types but YMMV.  Some of the data we will discuss are:</p>
+<ul>
+<li>Step Data (both watch and phone data)</li>
+<li>Heart Rate</li>
+<li>Exercise Data</li>
+<li>Blood Pressure Data</li>
+</ul>
+<p>Data analyses will be done in Python using Pandas as an example, but a user can easily use other tools. Python code is also provided to convert the Apple Health data into columnar data.</p>
+<p>Data from an Apple Watch will automatically synchronize with the Heath app on your phone. You can then use the Health app to extract this information and transfer it to a computer for analysis.  This post will walk through the process.</p>
+<h2 id="extracting-the-data">Extracting the Data<a class="anchorjs-link" href="#extracting-the-data"></a></h2><p><strong>Note</strong>: It can take several minutes to extract the data from the Health app which should not be interrupted so plan accordingly.</p>
+<h4 id="open-the-health-app">Open the Health App<a class="anchorjs-link" href="#open-the-health-app"></a></h4>
+
+<img alt="Health App" src="../health_icon.jpeg" width="100" >
+<p>
+
+
+<h4 id="open-user-page">Open User Page<a class="anchorjs-link" href="#open-user-page"></a></h4><p>At the top of the Summary screen, on the right side, is your user profile button.</p>
+
+
+<img alt="User Options" src="../summary_page.jpeg" width="300" ></p>
+
+
+<p>Shown as a small circle with the your initials.  Select this button to display the User Profile.</p>
+<h4 id="export-the-data">Export the Data<a class="anchorjs-link" href="#export-the-data"></a></h4><p>Scroll to the bottom of the Profile to reach the Export command,</p>
+
+
+<img alt="Export Command" src="../export_command.jpeg" width="300"></p>
+
+
+<p>and press the button.  A pop-up will be displayed asking if you are sure and select <strong>Export</strong></p>
+<h4 id="transfer-to-your-computer">Transfer to Your Computer<a class="anchorjs-link" href="#transfer-to-your-computer"></a></h4><p>At the end of the export you will be given the option to Share the data.  This is the step where we want to transfer the data file to a computer.  If you have AirDrop setup this is the easiest, and fastest, way to move the data.</p>
+
+
+<img alt="Share Data" src="../share_data.jpeg" width="300"></p>
+
+
+<p>The exported file is named <strong>export.zip</strong> and is a compressed archive of your health data.</p>
+<p>If you don&rsquo;t have AirDrop, then you can transfer it using email although this can be a problem as the file can be quite large (200Mb in my case).</p>
+
+
+        <hr style="visibility: hidden;" />
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/travel/nacimiento/" data-toggle="tooltip" data-placement="top" title="Lake Nacimiento during the poppy bloom">
+              Previous<br>
+              <span>Lake Nacimiento during the poppy bloom</span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <hr style="visibility: hidden;" />
+
+        
+        
+
+
+
+<div class="giscus" id="comments"></div>
+<script src="https://giscus.app/client.js" 
+  data-repo="roninro/hugo-theme-puppet" 
+  data-repo-id="R_kgDOHuvyhw"
+  data-category="General"
+  data-category-id="DIC_kwDOHuvyh84CQjDo"
+  data-mapping="pathname"
+  data-strict="0" 
+  data-reactions-enabled="1" 
+  data-emit-metadata="0" 
+  data-input-position="top"
+  data-theme="light_tritanopia"
+  data-lang="en"
+  crossorigin="anonymous"
+  async>
+  </script>
+
+
+
+
+      </div>
+
+      
+      
+      
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              sidebar-container">
+
+        
+        
+        <section>
+  
+  
+  <hr class="hidden-sm hidden-xs">
+  
+  <h5>FEATURED TAGS</h5>
+  <div class="tags">
+    
+    <a href="/tags/cycling/">Cycling</a>
+    
+    <a href="/tags/data/">Data</a>
+    
+    <a href="/tags/dogpark/">DogPark</a>
+    
+    <a href="/tags/evs/">EVs</a>
+    
+    <a href="/tags/fitness/">Fitness</a>
+    
+    <a href="/tags/flowers/">Flowers</a>
+    
+    <a href="/tags/nationalpark/">NationalPark</a>
+    
+    <a href="/tags/rocks/">Rocks</a>
+    
+    <a href="/tags/statepark/">StatePark</a>
+    
+    <a href="/tags/wyland/">Wyland</a>
+    
+  </div>
+</section>
+
+        
+        
+
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+  
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <ul class="list-inline text-center">
+
+<li>
+  <a href="https://linkedin.com/in/danec" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="https://mastodon.social/johndoe" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+
+<li>
+  <a href="/index.xml" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li></ul>
+
+        <p class="copyright text-muted">
+          Copyright &copy; Travel and Data 2023  
+          <br>
+          Powered by <a href="https://gohugo.io">Hugo</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src=/js/jquery.min.js></script>
+<script src=/js/bootstrap.min.js crossorigin="anonymous"></script>
+
+
+
+<script src="/js/hux-blog.min.c4ea77041cd3edbfc8b2622cd887a9a5d8760a4162d14489e36d2a3fa4c90172.js"></script>
+
+
+<script src=/js/simple-jekyll-search.min.js></script>
+
+
+<script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/zoomjs/zoom.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fitness on Travel and Data</title>
+    <link>http://danecollins.github.io/tags/fitness/</link>
+    <description>Recent content in Fitness on Travel and Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://danecollins.github.io/tags/fitness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple Health Data Analysis Series - Part 1</title>
+      <link>http://danecollins.github.io/posts/watch/watch1/</link>
+      <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://danecollins.github.io/posts/watch/watch1/</guid>
+      <description>Do your own data analysis on Apple Health DataWhen Apple came out with the Watch and Health Apps they were quite limited and it seemed like they were not that useful. As Apple does with many products, it continued to improve these products, and there is now an abundance of data available through the Health App. Even with these improvements, the analyses that can be performed in the apps are limited.</description>
+    </item>
+    
+  </channel>
+</rss>
