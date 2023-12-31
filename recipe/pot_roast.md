@@ -6,9 +6,10 @@
 
 | Purchased                              | Pantry             |
 | -------------------------------------- | ------------------ |
-| 2.5-3.5lb Cross Rib roast              | 3 cups beef broth  |
+| 2.5-3.5lb Cross Rib roast              | 1 can beef broth   |
 | Red potatoes, cut in large chunks      | 2 tbs tomato paste |
-| Carrots, cut in large chunks           | 3oz + 2tbs flour   |
+| Carrots, cut in large chunks           | 3 oz (weight)      |
+| 1 onion cut coarsely                   | 2tbs flour         |
 | 1 cup red wine                         | Thyme              |
 
 ## Timeline (3 1/2 hours total)
@@ -18,15 +19,13 @@
 
 ## Steps
 1. **Coat beef** with 2tbs flour with salt and pepper
-2. **Brown** beef on all sides
+2. **Brown** roast on all sides
 3. **Deglaze** pan with wine
 4. **Mix flour** with cold broth
-5. **Add** tomato paste, broth and thyme to wine and bring to boil
+5. **Add** tomato paste, broth and thyme  and bring to boil
 6. Add roast, **bake at 325** for 1.5 hours
 7. Add potatoes and carrots and **bake** for 1.5 hours or until tender
 
 
 
 ## Notes
-* Can use 2 cups of wine and 2 cups of broth
-* 3 oz flour is by **weight** not volume
