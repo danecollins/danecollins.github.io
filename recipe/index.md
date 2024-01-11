@@ -54,6 +54,7 @@
   * [Pancakes](pancakes.html)
   * [Breakfast Cups](breakfast_cups.html)
   * [Blueberry Biscuits](blueberry_biscuits.html)
+  * [Sausage Gravy](sausage_gravy.html)
 
   
  
@@ -73,3 +74,4 @@
   * [Creamy Jalapeno Salsa](creamy_jalapeno.html)
   * [Scalloped Potatoes](scalloped_potatoes.html)
   * [Sticky Potatoes](sticky_potatoes.html)
+  * [Wild Rice](wild_rice.html)
