@@ -50,21 +50,21 @@
 
 
 ## Breakfast
-  * [French Toast](french_toast.html)
-  * [Pancakes](pancakes.html)
   * [Breakfast Cups](breakfast_cups.html)
   * [Blueberry Biscuits](blueberry_biscuits.html)
+  * [French Toast](french_toast.html)
+  * [Pancakes](pancakes.html)
   * [Sausage Gravy](sausage_gravy.html)
 
   
  
 ## Soups
-* [Corn Chowder](corn_chowder.html)
 * [Chicken Tortilla Soup](tortilla_soup.html)
+* [Corn Chowder](corn_chowder.html)
+* [Cream of Tomato Soup](tomato_soup.html)
+* [Ham Soup](ham_soup.html)
 * [Spicy Tomato Soup with Pasta](spicy_tomato_soup.html)
 * [Wild Rice and Chicken](wild_rice_soup.html)
-* [Ham Soup](ham_soup.html)
-* [Cream of Tomato Soup](tomato_soup.html)
 
 
 ## Sides
@@ -72,6 +72,7 @@
   * [BBQ Beans](bbq_beans.html)
   * [Corn Fritters](corn_fritters.html)
   * [Creamy Jalapeno Salsa](creamy_jalapeno.html)
+  * [Potato Rounds](potato_rounds.html)
   * [Scalloped Potatoes](scalloped_potatoes.html)
   * [Sticky Potatoes](sticky_potatoes.html)
   * [Wild Rice](wild_rice.html)
