@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://danecollins.github.io/wyland/62-neworleans/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/tags/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/tags/wyland/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/</loc>
+    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/61-sanpadre/</loc>
+    <lastmod>2024-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://danecollins.github.io/wyland/60-dallas/</loc>
+    <lastmod>2024-01-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://danecollins.github.io/posts/watch/watch1/</loc>
     <lastmod>2023-11-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,12 +33,6 @@
     <lastmod>2023-11-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://danecollins.github.io/posts/</loc>
-    <lastmod>2023-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://danecollins.github.io/tags/</loc>
-    <lastmod>2023-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://danecollins.github.io/</loc>
     <lastmod>2023-11-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://danecollins.github.io/categories/</loc>
@@ -45,12 +60,6 @@
     <lastmod>2022-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://danecollins.github.io/wyland/59-milwaukee/</loc>
-    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://danecollins.github.io/tags/wyland/</loc>
-    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://danecollins.github.io/wyland/</loc>
     <lastmod>2022-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://danecollins.github.io/travel/marin/</loc>
@@ -275,12 +284,12 @@
     <loc>http://danecollins.github.io/wyland/01-sanfrancisco/</loc>
     <lastmod>2010-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://danecollins.github.io/about/</loc>
-  </url><url>
     <loc>http://danecollins.github.io/archive/</loc>
   </url><url>
     <loc>http://danecollins.github.io/healthapp.jpeg/</loc>
   </url><url>
     <loc>http://danecollins.github.io/posts/watch/watch_2/</loc>
+  </url><url>
+    <loc>http://danecollins.github.io/about/</loc>
   </url>
 </urlset>
