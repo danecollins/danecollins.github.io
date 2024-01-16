@@ -18,24 +18,24 @@ small corn tortillas  |
 ## Steps
 
 1. Bring 1 cup wine, 1 cup stock and 5 shredded tortillas to pot
-2. Boil for 10 minutes then blend in tortillas and add to crock pot
-3. Add to crock pot and cook for 4 hours
-  * remaining stock
+2. Boil for **10 minutes** 
+3. Add
   * chicken
+  * remaining stock
   * tomatoes
   * chopped onions
   * chopped peppers
   * garlic cloves
-4. Remove and shred chicken
-5. Add to crock pot and cook remaining time
-  * corn
-  * beans
+  * 1/2 of corn
   * chili and chipotle chili powder
   * ground cumin
-  * salt
   * tomato paste
-6. Add lime juice and season to taste
-
+4. Bring to **boil** and cook for **20 minutes**
+5. Remove chicken
+6. Cook for an additional 40 minutes
+7. Mix using immersion blender
+8. Add remaining corn and beans to pot and cook 20 minutes
+9. Add chicken and cream and cook 10 minutes
 
 
 ## Notes
