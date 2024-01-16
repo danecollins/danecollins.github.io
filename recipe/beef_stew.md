@@ -3,9 +3,9 @@
 
 Purchased  | Pantry Items
 -----------  | ------------
-| 2-3 lbs Cross Rib Roast  | 1/2 can tomato paste |
+| 3 lbs Cross Rib Roast  | 1/2 can tomato paste |
 | 1 onion                  | 1 cup red wine       |
-| 4 carrots                | 1 cup  broth         |
+| 4 carrots                | 1 can  broth         |
 | 4 red potatoes           | 3 tbs flour w/ water |
 | 1 cap diced tomatoes     | 1 cup peas           |
 
@@ -18,6 +18,8 @@ Purchased  | Pantry Items
 
 
 ## Steps
+
+**Try adding 1/2 tsp paprika and 2 tbs balsamic**
 
 1. Saute onions in butter
 2. Place onions into casserole dish
