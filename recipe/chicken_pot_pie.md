@@ -6,11 +6,11 @@
 
 | Purchased                     | Pantry              |
 | ----------------------------- | ------------------- |
-| 1 Onion                       | 1 cup Frozen Peas   |
-| 12oz Red Potatoes             | 18 oz Chicken Broth |
-| 7oz Carrots                   | 1.2 oz flour + 1/3 cup water |
+| 1/2 Large Onion               | 1 cup Frozen Peas   |
+| 13 oz Red Potatoes            | 18 oz Chicken Broth |
+| 1 cup Chopped carrots         | 1.4 oz flour + 1/3 cup water |
 | 1 Pillsbury Pie Crust (14 oz) |                     |
-| 12 oz chicken                 |
+| 14 oz chicken                 |
 
 ## Timeline (90 min total)
 - 45 min prep
