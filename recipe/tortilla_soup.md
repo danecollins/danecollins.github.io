@@ -5,15 +5,15 @@
 Purchased             | Pantry Items
 -----------           | ------------
 1.5 lb chicken        | 2 tsp chili powder
-1 can black beans     | 1 tsp ground cumin
+2 can black beans     | 1 tsp ground cumin
 1 can diced tomatoes  | 1.5 cups corn
 1 onion               | 1 cup white wine
 1/2 red bell pepper   | 2 cloves garlic
-2 jalapenos
-1 anaheim pepper      | 1 tsp chipotle chili powder
-48 oz chicken stock   | 1/2 can tomato paste
-1 lime                | 2 tsp salt
-small corn tortillas  |
+2 jalapenos           | 1/2 can tomato paste
+1 anaheim pepper      | 2 tsp salt
+48 oz chicken stock   | 2 tbs corn starch with water
+1 lime                | 
+7 small corn tortillas |     
 
 
 ## Steps
