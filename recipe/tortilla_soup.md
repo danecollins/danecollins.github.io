@@ -5,15 +5,14 @@
 Purchased             | Pantry Items
 -----------           | ------------
 1.5 lb chicken        | 2 tsp chili powder
-2 can black beans     | 1 tsp ground cumin
+1 can black beans     | 2 tsp ground cumin
 1 can diced tomatoes  | 1.5 cups corn
 1 onion               | 1 cup white wine
-1/2 red bell pepper   | 2 cloves garlic
-2 jalapenos           | 1/2 can tomato paste
-1 anaheim pepper      | 2 tsp salt
-48 oz chicken stock   | 2 tbs corn starch with water
-1 lime                | 
-7 small corn tortillas |     
+7 small corn tortillas| 2 cloves garlic
+1 jalapenos           | 1/2 can tomato paste
+1 poblano pepper      | 48 oz chicken stock
+1 lime                | 2 tbs corn starch with water
+     
 
 
 ## Steps
@@ -41,4 +40,6 @@ Purchased             | Pantry Items
 
 
 ## Notes
-* If you don't roast Anaheim it ends up being hard chunks in the soup
+* If you don't roast Poblano it ends up being hard chunks in the soup
+* TODO: try adding passada or cream to thicken and make more creamy.
+* TODO: try blending additional 1/2 cup of corn to thicken
