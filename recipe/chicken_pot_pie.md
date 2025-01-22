@@ -7,9 +7,9 @@
 | Purchased                     | Pantry              |
 | ----------------------------- | ------------------- |
 | 1/2 Large Onion               | 1 cup Frozen Peas   |
-| 13 oz Red Potatoes            | 18 oz Chicken Broth |
-| 1 cup Chopped carrots         | 1.4 oz flour + 1/3 cup water |
-| 1 Pillsbury Pie Crust (14 oz) |                     |
+| 13 oz Red Potatoes            | 14.5 oz Chicken Broth |
+| 1 cup Chopped carrots         | 1.4 oz flour + 1/3 cup milk |
+| 1 Pillsbury Pie Crust (14 oz) | 4 oz wine            |
 | 14 oz chicken                 |
 
 ## Timeline (90 min total)
@@ -32,4 +32,6 @@
 
 ## Notes
 
-For ramekins use 1lb chicken, 1lb potatoes, 1.4 oz flour and 22oz stock
+**For ramekins** use 1lb chicken, 1lb potatoes, 1/3 cup flour and 1 can stock, 4 oz wine, 6 oz milk
+
+When **baking chicken** try to coat with oil so the skin does not get tough.
