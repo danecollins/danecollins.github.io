@@ -66,6 +66,7 @@
 * [Ham Soup](ham_soup.html)
 * [Spicy Tomato Soup with Pasta](spicy_tomato_soup.html)
 * [Wild Rice and Chicken](wild_rice_soup.html)
+* [Chicken Noodle Soup](chicken_noodle.html)
 
 
 ## Sides
