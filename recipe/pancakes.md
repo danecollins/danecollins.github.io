@@ -4,27 +4,25 @@
 
 Purchased    | Pantry Items
 -----------  | ------------
-             | 1 cup flour
-             | 1.5 tbs sugar
-             | 2 tsp baking powder
-             | 1/4 tsp baking soda
-             | 1 tsp salt
+             | 160g flour
+             | 1 tbs sugar
+             | 3.5 tsp (17g) baking powder
+             | pinch salt
+             | 1/2 tsp vanilla
+             | 3 tbs butter
+             | 10 oz milk
              | 1 egg
-             | 3/4 cup milk
-             | 1/4 tsp vanilla
-             | 2 tbs oil
 
-## Timeline (30 min total)
+## Timeline (20 min total)
 * 10 min prep and mix
-* 10 min rest batter
 * 10 min cook
 
 ## Steps
 
 1. **Mix** dry ingredients and liquid ingredients separately
-2. **Rest** batter 10 minutes
-3. **Cook** pancakes on medium-low heat
+2. **Combine** ingredients
+3. **Cook** pancakes on medium heat
 
 
 ## Notes
-* Makes 4 pancakes, double recipe for more
+* Makes 5 large pancakes
