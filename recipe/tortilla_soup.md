@@ -6,7 +6,7 @@ Purchased             | Pantry Items
 -----------           | ------------
 1.5 lb chicken        | 2 tsp chili powder
 1 can black beans     | 2 tsp ground cumin
-1 can diced tomatoes  | 1.5 cups corn
+1 can diced tomatoes  | 2 cups corn
 1 onion               | 1 cup white wine
 7 small corn tortillas| 2 cloves garlic
 1 jalapenos           | 1/2 can tomato paste
@@ -18,8 +18,10 @@ Purchased             | Pantry Items
 ## Steps
 
 1. Roast Anaheim and jalapeno pepper, peel anaheim
+2. Saute onions
 2. Bring 1 cup wine, 1 cup stock and 5 shredded tortillas to pot
-3. Boil for **10 minutes** 
+3. Boil for **10 minutes**
+4. Add 1 cup corn and 1/2 onions and immersion blend
 4. Add
   * chicken
   * remaining stock
@@ -34,7 +36,6 @@ Purchased             | Pantry Items
 5. Bring to **boil** and cook for **20 minutes**
 6. Remove chicken
 7. Cook for an additional 40 minutes
-8. Mix using immersion blender
 9. Add remaining corn and beans to pot and cook 20 minutes
 10. Add chicken and cream and cook 10 minutes
 
@@ -42,4 +43,3 @@ Purchased             | Pantry Items
 ## Notes
 * If you don't roast Poblano it ends up being hard chunks in the soup
 * TODO: try adding passada or cream to thicken and make more creamy.
-* TODO: try blending additional 1/2 cup of corn to thicken
