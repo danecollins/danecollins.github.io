@@ -23,7 +23,7 @@
   * [**Chicken Noodle** Caserole](chicken_caserole.html)
 * Beef
   * [Beef **Stew**](beef_stew.html)
-  * [Shepherd's Pie](shepherds_pie.html)
+  * [Shepherd's Pie](shepherd_pie.html)
   * [Ground Beef Tacos](ground_beef_tacos.html)
   * [Classic **Pot Roast**](pot_roast.html)
   * [**Chili**](chili.html)
