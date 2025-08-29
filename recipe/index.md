@@ -20,7 +20,7 @@
   * [Chicken **Pot Pie**](chicken_pot_pie.html)
   * [**Saffron Chicken** and Rice](saffron_chicken.html)
   * [Chicken and Sausage **Gumbo**](chicken_sausage_gumbo.html)
-  * [**Chicken Noodle** Caserole](chicken_caserole.html)
+  * [**Chicken Noodle** Casserole](chicken_caserole.html)
 * Beef
   * [Beef **Stew**](beef_stew.html)
   * [Shepherd's Pie](shepherd_pie.html)
