@@ -20,7 +20,7 @@ Purchased  | Pantry Items
 
 ## Steps
 
-1. **Mix** bouillon with 2 cups of hot water
+1. **Mix** bouillon with 2 cups of hot water (or reduce 4 cups broth to 2 cups)
 2. **Cook beef** in milk and drain and set aside
 3. Pulse pancetta, onion, carrot and celery **in food processor**
 4. In oil, **brown** mixture until well browned, about 20 min.
