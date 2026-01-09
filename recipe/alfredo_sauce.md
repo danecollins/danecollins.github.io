@@ -27,5 +27,6 @@ Purchased  | Pantry Items
 
 
 ## Notes
-* No foreign particles (meat, peas, etc) can be in **butter** when cheese is mixed in or the cheese will **clump**.
-* 
+* No addins (meat, peas) can be in **butter** when cheese is mixed in or the cheese will clump.
+* All addins go in after cream is added.
+* Do not use shredded chicken as it will clump

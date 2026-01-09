@@ -9,7 +9,9 @@
 | 1.5 lb lean ground beef         | 2 garlic cloves, minced |
 | 1 onion                         | 2 tbs chili powder      |
 | 2 x 16 oz cans red kidney beams | 1 tsp pepper            |
-| 2 x 14.5 oz cans diced tomatoes | 1 tsp ground cumin      |
+| 2 x 14.5 oz cans diced tomatoes | 1 tsp ground cumin
+|                                 | 1 tsp oregano     |
+|                                 | 1 tbs coriander |
 
 
 ## Steps
@@ -20,3 +22,4 @@
 
 
 ## Notes
+* Adding pasta just made chili blank
