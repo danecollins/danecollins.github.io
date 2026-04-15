@@ -42,6 +42,7 @@
   * [**Risotto** with Sausage](risotto_with_sausage.html)
   * [Pork **Fried Rice**](pork_fried_rice.html)
   * [Chile Verde](chile_verde.html)
+  * [Sausage **Rigatoni**](sausage_rigatoni.html)
 * Pasta
   * [**Tagliatelle** with Prosciutto and Peas](tagliatelle_peas.html)
   * [**Bolognese** Sauce](bolognese_sauce.html)

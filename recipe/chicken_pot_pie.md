@@ -8,8 +8,8 @@
 | ----------------------------- | ------------------- |
 | 1/2 Large Onion               | 1 cup Frozen Peas   |
 | 13 oz Red Potatoes            | 14.5 oz Chicken Broth |
-| 1 cup Chopped carrots         | 1.4 oz flour + 1/3 cup milk |
-| 1 Pillsbury Pie Crust (14 oz) | 4 oz wine            |
+| 1 cup Chopped carrots         | 1.4 oz flour + 1/3 cup water |
+| 1 Pillsbury Pie Crust         | 4 oz wine            |
 | 14 oz chicken                 |
 
 ## Timeline (90 min total)
