@@ -30,7 +30,7 @@
 6. Combine chicken, broth and tomatoes
 7. Simmer for 20 minutes
 8. Add rice and bring to simmer
-9. Cover and bake 15 minutes
+9. Cover and bake 15 minutes at 350
 10. Stir and cook an additional 15 minutes
 11. Let stand 10 minutes
 
