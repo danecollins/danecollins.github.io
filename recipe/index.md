@@ -44,6 +44,7 @@
   * [Pork **Fried Rice**](pork_fried_rice.html)
   * [Chile Verde](chile_verde.html)
   * [Sausage **Rigatoni**](sausage_rigatoni.html)
+  * [Pork **Stroganoff**](pork_stroganoff.html)
 * Pasta
   * [**Tagliatelle** with Prosciutto and Peas](tagliatelle_peas.html)
   * [**Bolognese** Sauce](bolognese_sauce.html)
