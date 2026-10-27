@@ -21,6 +21,7 @@
   * [**Saffron Chicken** and Rice](saffron_chicken.html)
   * [Chicken and Sausage **Gumbo**](chicken_sausage_gumbo.html)
   * [**Chicken Noodle** Casserole](chicken_caserole.html)
+  * [Chicken Chorizo **Paella**](chicken_chorizo_paella.html)
 * Beef
   * [Beef **Stew**](beef_stew.html)
   * [Shepherd's Pie](shepherd_pie.html)
